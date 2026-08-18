@@ -26,3 +26,10 @@ def test_cli_source(capsys):
 def test_cli_unknown_source_fails_safely(capsys):
     assert main(["source", "missing-source"]) == 2
     assert "Unknown source: missing-source" in capsys.readouterr().err
+
+
+def test_cli_authority_candidates_are_explicitly_unverified(capsys):
+    assert main(["authorities", "--topic", "obligaciones", "--limit", "3"]) == 0
+    output = capsys.readouterr().out
+    assert output.count("UNVERIFIED") == 3
+    assert "Obligaciones" in output
