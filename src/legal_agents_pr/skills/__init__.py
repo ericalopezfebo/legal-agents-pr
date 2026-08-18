@@ -1,4 +1,3 @@
-from .base import Skill, SkillRegistry
+from .base import Skill, SkillLoader, SkillRegistry
 
-__all__ = ["Skill", "SkillRegistry"]
-
+__all__ = ["Skill", "SkillLoader", "SkillRegistry"]

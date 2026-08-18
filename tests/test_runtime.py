@@ -18,6 +18,8 @@ def test_runtime_with_structured_mock():
     assert request.metadata["source_refs"] == ["pr-lpau-38-2017-2025-05-16"]
     assert "metadata only; the source text was not checked" in request.messages[0].content
     assert "Do not mark an authority VERIFIED" in request.messages[0].content
+    assert "## Skill: legal-research" in request.messages[0].content
+    assert "## Skill: citation-check" in request.messages[0].content
 
 
 def test_non_json_provider_response_fails_conservatively():
