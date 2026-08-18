@@ -19,7 +19,18 @@ class LegalQualityGate:
         verified = [a for a in output.authorities if a.verification_status == VerificationStatus.VERIFIED]
         unverified = [a for a in output.authorities if a.verification_status != VerificationStatus.VERIFIED]
 
-        checks.append(QualityCheck(name="jurisdiction", status=CheckStatus.VERIFIED))
+        checks.append(
+            QualityCheck(
+                name="jurisdiction",
+                status=CheckStatus.PARTIALLY_VERIFIED,
+                details=[
+                    (
+                        "The agent definition targets Puerto Rico; the forum and governing law "
+                        "must still be confirmed from matter-specific facts."
+                    )
+                ],
+            )
+        )
         authority_status = CheckStatus.VERIFIED if verified and not unverified else CheckStatus.UNVERIFIED
         checks.append(QualityCheck(name="authority", status=authority_status))
         citation_status = authority_status
