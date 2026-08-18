@@ -1,6 +1,7 @@
 from .agent import AgentDefinition
 from .authority import Authority, AuthorityLevel, VerificationStatus
 from .handoff import HandoffRequest
+from .judicial import JudicialDocumentType, TsprDecisionRecord, TsprParseIssue, TsprParseResult
 from .legal_output import LegalAnalysis
 from .provider import GenerationRequest, GenerationResponse, Message, ProviderStatus
 from .quality import CheckStatus, QualityCheck, QualityReport, QualityStatus
@@ -22,6 +23,7 @@ __all__ = [
     "GenerationRequest",
     "GenerationResponse",
     "HandoffRequest",
+    "JudicialDocumentType",
     "LegalAnalysis",
     "LegalEffectStatus",
     "LegalSource",
@@ -34,6 +36,9 @@ __all__ = [
     "SourceCatalog",
     "SourceLocator",
     "SourceStatus",
+    "TsprDecisionRecord",
+    "TsprParseIssue",
+    "TsprParseResult",
     "VerificationEvidence",
     "VerificationStatus",
 ]
