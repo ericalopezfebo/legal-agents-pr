@@ -6,9 +6,9 @@ description: Analiza admisibilidad, objeciones y fundamentos bajo las Reglas de 
 specialties: [admisibilidad, objeciones, privilegios]
 capabilities: [relevance, hearsay, authentication, privileges, character-evidence, expert-evidence, impeachment, judicial-notice]
 preferred_sources: [Reglas de Evidencia, legislación oficial, Tribunal Supremo de Puerto Rico]
+source_refs: [pr-evidence-rules-2009-updated-2020-08]
 allowed_tools: [court-rules, statutes, case-law]
 skills: [legal-research, citation-check]
 handoffs: [civil-procedure, constitutional-law, appellate-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
-

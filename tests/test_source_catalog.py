@@ -6,11 +6,18 @@ from legal_agents_pr.core.loader import AgentLoader
 from legal_agents_pr.core.source_catalog import SourceCatalogLoader
 
 
-def test_catalog_loads_five_unique_sources() -> None:
+def test_catalog_loads_ten_unique_sources() -> None:
     catalog = SourceCatalogLoader().load()
 
-    assert len(catalog.sources) == 5
-    assert len({source.sha256 for source in catalog.sources}) == 5
+    assert len(catalog.sources) == 10
+    assert len({source.sha256 for source in catalog.sources}) == 10
+
+
+def test_unattributed_citation_aid_is_not_marked_official() -> None:
+    source = SourceCatalogLoader().get("pr-basic-legal-citation-reference-undated")
+
+    assert source.revision_as_of is None
+    assert source.status.value == "user-supplied-reference-copy"
 
 
 def test_agent_source_references_exist() -> None:

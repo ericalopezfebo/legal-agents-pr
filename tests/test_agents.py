@@ -3,6 +3,7 @@ from legal_agents_pr.core.loader import AgentLoader
 EXPECTED = {
     "administrative-law", "labor-employment-law", "constitutional-law", "notarial-law",
     "civil-law", "civil-procedure", "contracts", "evidence", "appellate-law",
+    "professional-responsibility",
 }
 
 

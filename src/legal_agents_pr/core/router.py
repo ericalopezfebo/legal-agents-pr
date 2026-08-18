@@ -26,6 +26,7 @@ ROUTING_RULES: dict[str, tuple[str, ...]] = {
     "contracts": ("contrato", "cláusula", "incumplimiento", "indemnización", "no competencia"),
     "evidence": ("evidencia", "prueba", "hearsay", "referencia", "autenticación", "privilegio"),
     "appellate-law": ("apelación", "certiorari", "reconsideración", "error", "estándar de revisión"),
+    "professional-responsibility": ("ética", "conducta profesional", "conflicto de intereses", "confidencialidad", "competencia tecnológica"),
 }
 
 

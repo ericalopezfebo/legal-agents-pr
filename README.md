@@ -9,7 +9,7 @@ Provider-agnostic, open-source legal AI agents for Puerto Rico. The repository s
 
 ## What it is
 
-- Nine versioned specialist agents for Puerto Rico law.
+- Ten versioned specialist agents for Puerto Rico law.
 - A small Python runtime with provider, tool, skill, routing, handoff and quality interfaces.
 - Structured Pydantic outputs with explicit citation-verification states.
 - A CLI and Python API that work offline with `MockProvider`.
@@ -128,4 +128,3 @@ Do not send confidential client material to a provider without an authorized pri
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE). Legal source data and third-party integrations may carry separate terms.
-

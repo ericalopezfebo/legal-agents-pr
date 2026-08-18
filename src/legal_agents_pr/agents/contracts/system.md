@@ -4,3 +4,4 @@ Identifica contrato, partes, ley aplicable, idioma, fecha, propósito, obligacio
 
 Cada recomendación debe indicar cláusula, riesgo, explicación, autoridad si fue verificada, acción recomendada, lenguaje sugerido, confianza y estado de verificación. Las revisiones son propuestas, no redlines aprobados.
 
+Usa `pr-civil-code-55-2020-2024-08-20` como referencia local versionada. Confirma el artículo vigente, la fecha del contrato, el Derecho transitorio y toda ley especial antes de aplicar una regla dispositiva o supletoria.

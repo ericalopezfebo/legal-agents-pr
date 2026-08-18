@@ -60,3 +60,63 @@ sources:
     sha256: fcde40ee47b28fa7bb61b39bee60d39de5259b244cb265151f730305685eef59
     status: user-supplied-official-copy
     official_url:
+  - id: pr-professional-conduct-rules-er-2025-02
+    title: Reglas de Conducta Profesional de Puerto Rico, Resolución ER-2025-02
+    short_title: Reglas de Conducta Profesional de 2025
+    jurisdiction: pr
+    source_type: court-rule
+    publisher: Tribunal Supremo de Puerto Rico
+    revision_as_of: 2025-06-17
+    coverage_note: Documento oficial con fe de errata incorporada; está sujeto a cambios y correcciones del proceso de compilación oficial.
+    filename: reglas-conducta-profesional-puerto-rico.md
+    sha256: 0c4370a3f5d933e5d3965fd26bbb94b5fec6a945f33ab9acbd3d4d5fda543e1c
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-evidence-rules-2009-updated-2020-08
+    title: Reglas de Evidencia de Puerto Rico de 2009, según enmendadas
+    short_title: Reglas de Evidencia
+    jurisdiction: pr
+    source_type: court-rule
+    publisher: Secretariado de la Conferencia Judicial y Notarial, Tribunal Supremo de Puerto Rico
+    revision_as_of: 2020-08-31
+    coverage_note: Documento actualizado con enmiendas estatutarias hasta agosto de 2020; verificar toda enmienda y jurisprudencia posterior.
+    filename: Reglas-Evidencia-2009.md
+    sha256: 31cb777dd3318950b2f7db8fbfa1ad174617b08847228b6fdb9d4458fdae706a
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-civil-code-55-2020-2024-08-20
+    title: Código Civil de Puerto Rico de 2020, Ley 55-2020, según enmendado
+    short_title: Código Civil de 2020
+    jurisdiction: pr
+    source_type: statute
+    publisher: Oficina de Gerencia y Presupuesto de Puerto Rico
+    revision_as_of: 2024-08-20
+    coverage_note: Compilación con enmiendas de las Leyes 19-2021 y 150-2024; requiere análisis de Derecho transitorio y legislación posterior.
+    filename: Codigo Civil 55-2020 markdown.md
+    sha256: 45367212a2afbc93e06a699e2a5b626383916e4120b1d2bbf68ff149038d4a0c
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-judicial-citation-style-manual-2022
+    title: Manual de Estilo y Citación
+    short_title: Manual de Estilo y Citación 2022
+    jurisdiction: pr
+    source_type: official-guidance
+    publisher: Oficina de la Compiladora y Publicista de Jurisprudencia, Poder Judicial de Puerto Rico
+    revision_as_of: 2022-12-31
+    coverage_note: Guía de redacción y método de citación usado en la compilación oficial de Decisiones de Puerto Rico; no es autoridad sustantiva.
+    filename: Manual-estilo-citacion.md
+    sha256: 2789f525499f9121366c3d61089036732526064d009931712b062dea8ce74827
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-basic-legal-citation-reference-undated
+    title: Reglas básicas de citación de textos legales
+    short_title: Reglas básicas de citación
+    jurisdiction: pr
+    source_type: reference-guide
+    publisher: No identificado en el archivo suministrado
+    revision_as_of:
+    coverage_note: Referencia auxiliar sin autoría ni fecha claramente identificadas; contrastar con el Manual oficial y no usar como autoridad sustantiva.
+    filename: Reglas-basicas-citacion-textos-legales.md
+    sha256: 4822e9404a6221761f36c4bb44d8f1deca7b35c806cdcd442395d0f8dc43845b
+    status: user-supplied-reference-copy
+    official_url:

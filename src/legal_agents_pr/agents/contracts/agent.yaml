@@ -6,9 +6,9 @@ description: Analiza formación, obligaciones, cláusulas, riesgos, remedios y p
 specialties: [contratos, revisión de cláusulas, negociación]
 capabilities: [contract-identification, party-extraction, obligation-mapping, clause-analysis, risk-assessment, missing-protections, negotiation-priorities, suggested-revisions]
 preferred_sources: [Código Civil de Puerto Rico, legislación especial, Tribunal Supremo de Puerto Rico]
+source_refs: [pr-civil-code-55-2020-2024-08-20]
 allowed_tools: [statutes, case-law, document-analysis]
 skills: [contract-review, contract-drafting, citation-check]
 handoffs: [civil-law, labor-employment-law, notarial-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
-

@@ -16,3 +16,7 @@ def test_routes_contract_question_with_secondary():
 def test_uncertain_route_requires_confirmation():
     assert DomainRouter().route("Necesito orientación").requires_confirmation
 
+
+def test_routes_professional_responsibility():
+    route = DomainRouter().route("Posible conflicto de intereses y confidencialidad del cliente")
+    assert route.primary_agent == "professional-responsibility"

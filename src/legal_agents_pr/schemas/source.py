@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field, field_validator
 
 class SourceStatus(str, Enum):
     USER_SUPPLIED_OFFICIAL_COPY = "user-supplied-official-copy"
+    USER_SUPPLIED_REFERENCE_COPY = "user-supplied-reference-copy"
 
 
 class LegalSource(BaseModel):
@@ -15,7 +16,7 @@ class LegalSource(BaseModel):
     jurisdiction: str = "pr"
     source_type: str
     publisher: str
-    revision_as_of: date
+    revision_as_of: date | None = None
     coverage_note: str
     filename: str
     sha256: str = Field(min_length=64, max_length=64)

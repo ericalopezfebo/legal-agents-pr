@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: professional-responsibility
+name: Responsabilidad Profesional de Puerto Rico
+jurisdiction: {primary: pr, secondary: []}
+description: Analiza deberes profesionales bajo las Reglas de Conducta Profesional de Puerto Rico de 2025.
+specialties: [ética profesional, conflictos, confidencialidad, competencia tecnológica]
+capabilities: [competence, diligence, communication, fees, confidentiality, conflicts, supervision, candor, technology-competence, withdrawal]
+preferred_sources: [Reglas de Conducta Profesional de Puerto Rico, resoluciones del Tribunal Supremo de Puerto Rico]
+source_refs: [pr-professional-conduct-rules-er-2025-02]
+allowed_tools: [court-rules, case-law]
+skills: [conflict-check, confidentiality-review, citation-check]
+handoffs: [notarial-law, civil-procedure, appellate-law]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
