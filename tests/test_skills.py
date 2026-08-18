@@ -15,7 +15,7 @@ def test_all_agent_skill_references_resolve() -> None:
 
 def test_skill_library_contains_substantive_instructions() -> None:
     loader = SkillLoader()
-    assert len(loader.list_ids()) == 22
+    assert len(loader.list_ids()) == 26
     for skill_id in loader.list_ids():
         skill = loader.load(skill_id)
         assert len(skill.instructions.splitlines()) >= 5

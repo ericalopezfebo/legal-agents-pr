@@ -8,7 +8,7 @@ capabilities: [obligations, damages, property, prescription, remedies]
 preferred_sources: [Código Civil de Puerto Rico, legislación especial, Tribunal Supremo de Puerto Rico]
 source_refs: [pr-civil-code-55-2020-2024-08-20]
 allowed_tools: [statutes, case-law]
-skills: [legal-research, prescription-analysis, citation-check]
+skills: [legal-research, analyze-statute, build-chronology, check-proposition-support, citation-check]
 handoffs: [contracts, civil-procedure, notarial-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

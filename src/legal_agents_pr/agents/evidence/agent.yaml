@@ -8,7 +8,7 @@ capabilities: [relevance, hearsay, authentication, privileges, character-evidenc
 preferred_sources: [Reglas de Evidencia, legislación oficial, Tribunal Supremo de Puerto Rico]
 source_refs: [pr-evidence-rules-2009-updated-2020-08]
 allowed_tools: [court-rules, statutes, case-law]
-skills: [evidence-admissibility, legal-research, citation-check]
+skills: [evidence-admissibility, build-chronology, check-proposition-support, legal-research, citation-check]
 handoffs: [civil-procedure, constitutional-law, appellate-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
