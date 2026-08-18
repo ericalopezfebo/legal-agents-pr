@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata in this file.
+title: Puerto Rico Legal Agents
+version: 0.1.0
+date-released: 2026-08-18
+type: software
+authors:
+  - family-names: Lopez Febo
+    given-names: Erica
+repository-code: https://github.com/ericalopezfebo/legal-agents-pr
+url: https://github.com/ericalopezfebo/legal-agents-pr
+license: Apache-2.0
+abstract: Provider-agnostic legal AI agent framework for Puerto Rico with citation safeguards and mandatory attorney-review controls.
+keywords:
+  - Puerto Rico
+  - legal AI
+  - agents
+  - legal research

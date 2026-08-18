@@ -2,7 +2,7 @@
 
 All notable changes will be documented here. This project follows semantic versioning.
 
-## 0.1.0 - Unreleased
+## 0.1.0 - 2026-08-18
 
 - Initial provider-agnostic runtime.
 - Ten Puerto Rico specialist agent definitions.
