@@ -5,6 +5,9 @@ La extracción de texto de PDF oficiales se documenta en
 un punto de partida auditable, pero no determina por sí sola vigencia, efecto jurídico ni valor
 precedencial.
 
+La verificación exacta de citas TSPR, DPR y leyes numeradas se documenta en
+[source-identifier-verification.md](source-identifier-verification.md).
+
 The framework separates four questions that must not be collapsed into one status:
 
 1. **Identity:** what document was retrieved, from which URL and publisher?
