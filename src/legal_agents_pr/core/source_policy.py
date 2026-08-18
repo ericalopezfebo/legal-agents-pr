@@ -1,13 +1,14 @@
 from legal_agents_pr.schemas.authority import Authority, AuthorityLevel, VerificationStatus
 
 PRIMARY_SOURCE_TYPES = {
-    "constitution", "statute", "regulation", "court_rule", "supreme_court_case",
-    "federal_case",
+    "constitution", "statute", "regulation", "court-rule", "supreme-court-case",
+    "federal-case",
 }
-SECONDARY_SOURCE_TYPES = {"treatise", "law_review", "official_guidance"}
+SECONDARY_SOURCE_TYPES = {"treatise", "law-review", "official-guidance"}
 
 
 def classify_authority(source_type: str, verified: bool) -> AuthorityLevel:
+    source_type = source_type.strip().lower().replace("_", "-")
     if not verified:
         return AuthorityLevel.UNVERIFIED_SOURCE
     if source_type in PRIMARY_SOURCE_TYPES:
@@ -21,4 +22,3 @@ def normalize_authority(authority: Authority) -> Authority:
     verified = authority.verification_status == VerificationStatus.VERIFIED
     authority.authority_level = classify_authority(authority.source_type, verified)
     return authority
-

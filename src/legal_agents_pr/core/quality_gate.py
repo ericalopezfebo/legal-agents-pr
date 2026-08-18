@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from datetime import date, datetime, timezone
+
 from legal_agents_pr.schemas.authority import VerificationStatus
 from legal_agents_pr.schemas.legal_output import LegalAnalysis
 from legal_agents_pr.schemas.quality import CheckStatus, QualityCheck, QualityReport, QualityStatus
@@ -12,7 +14,14 @@ CHECK_NAMES = (
 
 
 class LegalQualityGate:
-    def evaluate(self, output: LegalAnalysis, *, require_verified_citations: bool = True) -> QualityReport:
+    def evaluate(
+        self,
+        output: LegalAnalysis,
+        *,
+        require_verified_citations: bool = True,
+        as_of_date: date | None = None,
+    ) -> QualityReport:
+        as_of = as_of_date or datetime.now(timezone.utc).date()
         blockers: list[str] = []
         warnings: list[str] = []
         checks: list[QualityCheck] = []
@@ -39,10 +48,24 @@ class LegalQualityGate:
             blockers.append("One or more authorities remain unverified.")
         if require_verified_citations and not output.authorities and output.rules:
             blockers.append("Legal propositions were provided without verifiable authorities.")
+        current = [
+            authority
+            for authority in verified
+            if authority.evidence is not None and authority.evidence.supports_current_law(as_of)
+        ]
+        current_law_status = (
+            CheckStatus.VERIFIED
+            if verified and len(current) == len(verified) and not unverified
+            else CheckStatus.UNVERIFIED
+        )
+        if require_verified_citations and verified and current_law_status != CheckStatus.VERIFIED:
+            blockers.append(f"Current-law status was not checked through {as_of.isoformat()}.")
         for name in CHECK_NAMES[3:]:
             check_status = (
-                CheckStatus.UNVERIFIED
-                if name in {"current_law", "factual_support"}
+                current_law_status
+                if name == "current_law"
+                else CheckStatus.UNVERIFIED
+                if name == "factual_support"
                 else CheckStatus.PARTIALLY_VERIFIED
             )
             checks.append(QualityCheck(name=name, status=check_status))
