@@ -7,7 +7,7 @@ specialties: [Constitución de Puerto Rico, Constitución federal, derechos fund
 capabilities: [due-process, equal-protection, free-speech, privacy, search-seizure, standing, mootness, separation-of-powers, constitutional-challenge]
 preferred_sources: [Constitución de Puerto Rico, Constitución de Estados Unidos, Tribunal Supremo de Puerto Rico, SCOTUS, First Circuit]
 allowed_tools: [constitutions, statutes, case-law]
-skills: [constitutional-claim-analysis, legal-research, citation-check]
+skills: [constitutional-claim-analysis, analyze-statute, check-proposition-support, legal-research, citation-check]
 handoffs: [administrative-law, civil-procedure, appellate-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

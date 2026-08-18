@@ -8,7 +8,7 @@ capabilities: [appealability, jurisdiction, preservation, standard-of-review, re
 preferred_sources: [Reglamento del Tribunal de Apelaciones, Reglamento del Tribunal Supremo, legislación oficial, jurisprudencia oficial]
 source_refs: [pr-judicial-citation-style-manual-2022, pr-basic-legal-citation-reference-undated]
 allowed_tools: [court-rules, statutes, case-law]
-skills: [appellate-drafting, citation-check, filing-readiness]
+skills: [appellate-drafting, check-proposition-support, adversarial-legal-qc, citation-check, filing-readiness]
 handoffs: [civil-procedure, administrative-law, constitutional-law, evidence]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

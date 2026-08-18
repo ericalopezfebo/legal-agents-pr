@@ -21,6 +21,11 @@ Los módulos especializados adicionales cubren revisión administrativa, reclama
 constitucionales, admisibilidad de evidencia, reclamaciones laborales, análisis de imputaciones
 penales y exposición a pena.
 
+La tercera colección añade cronologías trazables, análisis estructurado de textos normativos,
+comprobación del apoyo real de cada proposición y control adversativo antes de entrega. Su diseño
+surge de una [revisión documentada de colecciones externas](external-skill-review.md), sin copiar
+texto o reglas sustantivas de terceros.
+
 Un skill describe una capacidad concreta. Un workflow coordina varios skills y conserva el estado
 del asunto. Añadir instrucciones a un skill no convierte sus resultados en autoridad verificada ni
 permite saltar el Quality Gate.

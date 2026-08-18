@@ -8,7 +8,7 @@ capabilities: [judicial-review, exhaustion-of-remedies, primary-jurisdiction, ad
 preferred_sources: [Constitución de Puerto Rico, legislación oficial, reglamentos oficiales, Tribunal Supremo de Puerto Rico]
 source_refs: [pr-lpau-38-2017-2025-05-16]
 allowed_tools: [statutes, regulations, case-law]
-skills: [administrative-review, legal-research, citation-check]
+skills: [administrative-review, analyze-statute, check-proposition-support, legal-research, citation-check]
 handoffs: [constitutional-law, appellate-law, labor-employment-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
