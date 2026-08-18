@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible framework or agent-definition defect.
+body:
+  - type: textarea
+    id: description
+    attributes: {label: Description}
+    validations: {required: true}
+  - type: textarea
+    id: reproduction
+    attributes: {label: Reproduction}
+    validations: {required: true}
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: This report contains no client-confidential or personally identifying information.
+          required: true
+

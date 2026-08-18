@@ -1,0 +1,12 @@
+name: Agent proposal
+description: Propose a substantive Puerto Rico legal agent or capability.
+body:
+  - type: input
+    id: area
+    attributes: {label: Practice area}
+    validations: {required: true}
+  - type: textarea
+    id: need
+    attributes: {label: Operational need and authoritative sources}
+    validations: {required: true}
+
