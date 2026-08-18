@@ -1,5 +1,7 @@
 # Puerto Rico Legal Agents
 
+![Puerto Rico Legal Agents](docs/assets/legal-agents-readme-banner.png)
+
 [![Tests](https://github.com/ericalopezfebo/legal-agents-pr/actions/workflows/tests.yml/badge.svg)](https://github.com/ericalopezfebo/legal-agents-pr/actions/workflows/tests.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 

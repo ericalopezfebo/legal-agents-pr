@@ -5,6 +5,10 @@ It contains citations, visible years, authority categories and broad legal topic
 contain the study materials, quotations, explanations, outlines, commentary, author analysis or
 case summaries.
 
+The focused August 2026 update processed only `Administrativo` rows from the revised Markdown and
+only citation patterns from the OCR of the civil-procedure PDF. Other subjects in the supplied
+materials were deliberately ignored. The index now contains 1,175 unique citation candidates.
+
 Every record is a research lead and is permanently loaded as `UNVERIFIED`. Presence in the index
 does not establish authenticity, accuracy, precedential value, legal effect, current validity or
 support for any proposition. OCR may introduce errors. Before use, retrieve the operative document
@@ -15,8 +19,14 @@ Use the CLI to inspect a bounded set of candidates:
 
 ```bash
 legal-agents-pr authorities --topic "daños" --limit 20
+legal-agents-pr authorities --topic "administrativo" --limit 20
+legal-agents-pr authorities --topic "procedimiento civil" --limit 20
 legal-agents-pr authorities --citation "2024 TSPR"
 ```
 
 The index is intentionally separate from the versioned source catalog. A citation candidate is not
 a source copy and cannot satisfy the source-verification contract.
+
+OCR normalization repairs spacing only. It does not resolve conflicting years, incorrect reporter
+volumes, duplicate pin cites or doctrinal relevance. Those questions remain for official-source
+verification and attorney review.
