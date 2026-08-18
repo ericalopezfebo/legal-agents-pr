@@ -1,0 +1,5544 @@
+schema_version: '1.0'
+provenance: Citation-only extraction from user-supplied legal study materials.
+copyright_scope: Factual citation metadata only; no source PDFs, quotations, commentary, summaries, outlines,
+  explanations or author analysis are included.
+verification_notice: Every record is an OCR-derived research lead and remains UNVERIFIED until matched
+  against an approved official source and reviewed by an attorney.
+authorities:
+- citation: 100 DPR 1009 (1971)
+  authority_type: tspr-decision
+  year: 1971
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 100 DPR 106 (1971)
+  authority_type: tspr-decision
+  year: 1971
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 100 DPR 282 (1971)
+  authority_type: tspr-decision
+  year: 1971
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 100 DPR 318 (1971)
+  authority_type: tspr-decision
+  year: 1971
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 100 DPR 791 (1972)
+  authority_type: tspr-decision
+  year: 1972
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 100 DPR 791,798 (1972)
+  authority_type: tspr-decision
+  year: 1972
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 101 DPR 290 (1973)
+  authority_type: tspr-decision
+  year: 1973
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 101 DPR 830, 835 (1973)
+  authority_type: tspr-decision
+  year: 1973
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 101 DPR 875 (1974)
+  authority_type: tspr-decision
+  year: 1974
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 102 DPR 254 (1974)
+  authority_type: tspr-decision
+  year: 1974
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 102 DPR 400 (1974)
+  authority_type: tspr-decision
+  year: 1974
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 102 DPR 716 (1974)
+  authority_type: tspr-decision
+  year: 1974
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 103 DPR 410 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 103 DPR 509 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 103 DPR 564 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 103 DPR 643 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 103 DPR 755 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 104 DPR 267 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 104 DPR 380 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 104 DPR 426 (1975)
+  authority_type: tspr-decision
+  year: 1975
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 104 DPR 609 (1976)
+  authority_type: tspr-decision
+  year: 1976
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 104 DPR 640 (1976)
+  authority_type: tspr-decision
+  year: 1976
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 104 DPR 693 (1976)
+  authority_type: tspr-decision
+  year: 1976
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 104 DPR 853 (1976)
+  authority_type: tspr-decision
+  year: 1976
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 105 DPR 149 (1976)
+  authority_type: tspr-decision
+  year: 1976
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 105 DPR 49 (1976)
+  authority_type: tspr-decision
+  year: 1976
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 106 DPR 324 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 361 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 106 DPR 361, 375 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 106 DPR 415(1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 432 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 479 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 504 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 657 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 663 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 106 DPR 82 (1977)
+  authority_type: tspr-decision
+  year: 1977
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 107 DPR 348 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 107 DPR 405 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 107 DPR 425 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 107 DPR 720 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 107 DPR 757 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 107 DPR 789 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 107 DPR 797 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 108 DPR 174 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 108 DPR 192 (1978)
+  authority_type: tspr-decision
+  year: 1978
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 108 DPR 290 (1979)
+  authority_type: tspr-decision
+  year: 1979
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 108 DPR 400 (1979)
+  authority_type: tspr-decision
+  year: 1979
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 108 DPR 850 (1979)
+  authority_type: tspr-decision
+  year: 1979
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 109 DPR 126 (1979)
+  authority_type: tspr-decision
+  year: 1979
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 109 DPR 235 (1979)
+  authority_type: tspr-decision
+  year: 1979
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 109 DPR 268 (1979)
+  authority_type: tspr-decision
+  year: 1979
+  topics:
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 109 DPR 387 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 109 DPR 395 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 109 DPR 456 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 109 DPR 656 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 109 DPR 715 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 109 DPR 774 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 109 DPR 804 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 109 DPR 852 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 110 DPR 139 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 110 DPR 376 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 110 DPR 518 (1980)
+  authority_type: tspr-decision
+  year: 1980
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 111 DPR 109 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 111 DPR 45 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 111 DPR 585 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 111 DPR 657 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 111 DPR 716 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 111 DPR 854 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 112 DPR 296 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 112 DPR 322 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 112 DPR 344 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 112 DPR 514 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 112 DPR 583 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 112 DPR 623 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 112 DPR 631 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 112 DPR 644 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 112 DPR 700 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 112 DPR 716 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 112 DPR 9 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 113 DPR 181 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 113 DPR 307 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 113 DPR 379 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 113 DPR 383 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 113 DPR 39 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 113 DPR 395 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 113 DPR 675 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 113 DPR 712 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 113 DPR 72 (1982)
+  authority_type: tspr-decision
+  year: 1982
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 113 DPR 876 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 114 DPR 216 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 114 DPR 236 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 114 DPR 286 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 114 DPR 394 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 114 DPR 576 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 114 DPR 697 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 114 DPR 743 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 114 DPR 796 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 114 DPR 850 (1983)
+  authority_type: tspr-decision
+  year: 1983
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 115 DPR 197 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 115 DPR 257 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 115 DPR 277 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 115 DPR 553 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 115 DPR 598 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 115 DPR 61 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 115 DPR 681 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 115 DPR 685 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 115 DPR 721 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 112 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 112 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 172 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 116 DPR 275 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 116 DPR 293 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 306 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 397 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 485 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 60 (1984)
+  authority_type: tspr-decision
+  year: 1984
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 116 DPR 712 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 116 DPR 748 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 116 DPR 828 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 116 DPR 88 (1985)
+  authority_type: tspr-decision
+  year: 1985
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 117 DPR 118 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 117 DPR 188, 196 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 117 DPR 35 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 117 DPR 371 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 117 DPR 380 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 117 DPR 657 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 117 DPR 94 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 118 DPR 1 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 118 DPR 190 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 118 DPR 219 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 118 DPR 319 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 118 DPR 380 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 118 DPR 45 (1986)
+  authority_type: tspr-decision
+  year: 1986
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 118 DPR 599 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 118 DPR 733 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 119 DPR 550 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 119 DPR 589 (1981)
+  authority_type: tspr-decision
+  year: 1981
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 119 DPR 762 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 119 DPR 8 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 120 DPR 145 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 120 DPR 267 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 120 DPR 295 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 120 DPR 380 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 120 DPR 566 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 120 DPR 80 (1987)
+  authority_type: tspr-decision
+  year: 1987
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 121 DPR 128 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 121 DPR 197 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 121 DPR 249 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 121 DPR 37 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 121 DPR 639 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 121 DPR 705 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 121 DPR 747 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 122 DPR 229 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 122 DPR 270 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 122 DPR 843 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 122 DPR 93 (1988)
+  authority_type: tspr-decision
+  year: 1988
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 123 DPR 113 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 123 DPR 150 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 123 DPR 339 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 123 DPR 360 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 123 DPR 379 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 123 DPR 571 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 124 DPR 472 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 124 DPR 529 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 124 DPR 867 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 125 DPR 1 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 125 DPR 109 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 125 DPR 15 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 125 DPR 294 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 125 DPR 340 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 125 DPR 365 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 125 DPR 37 (1989)
+  authority_type: tspr-decision
+  year: 1989
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 125 DPR 533 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 125 DPR 596 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 125 DPR 702 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 126 DPR 191 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 126 DPR 251 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 126 DPR 640 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 126 DPR 75 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 126 DPR 759 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 126 DPR 864 (1990)
+  authority_type: tspr-decision
+  year: 1990
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 127 DPR 635 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 127 DPR 704(1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 127 DPR 724 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 127 DPR 830 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 128 DPR 114 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 128 DPR 299 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 128 DPR 618 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 128 DPR 864 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 129 DPR 521 (1991)
+  authority_type: tspr-decision
+  year: 1991
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 129 DPR 740 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 129 DPR 888 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 129 DPR 911 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 130 DPR 116 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 130 DPR 470 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 130 DPR 507 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 130 DPR 562 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 130 DPR 596 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 130 DPR 767 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 130 DPR 842 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 131 DPR 171 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 131 DPR 304, 331 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 131 DPR 462 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 131 DPR 694 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 131 DPR 735 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 131 DPR 795 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 131 DPR 849 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 131 DPR 91 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 132 DPR 240 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 132 DPR 249 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 132 DPR 290 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 132 DPR 331 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 132 DPR 378 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 132 DPR 39 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 132 DPR 489 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 132 DPR 554 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 132 DPR 654 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 132 DPR 746 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 132 DPR 795 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 132 DPR 866 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 133 DPR 127 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 133 DPR 263 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 133 DPR 427 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 133 DPR 444 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 133 DPR 871 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 133 DPR 945 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 134 DPR 28 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 134 DPR 374, 384 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 134 DPR 405 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 134 DPR 644, 655 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 134 DPR 734 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 134 DPR 783 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 134 DPR 783 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 134 DPR 840 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 134 DPR 927 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 134 DPR 969 (1993)
+  authority_type: tspr-decision
+  year: 1993
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 135 DPR 122 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 135 DPR 137 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 135 DPR 277 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 135 DPR 382 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 135 DPR 406 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 135 DPR 475 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 135 DPR 540 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 135 DPR 647 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 135 DPR 668 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 135 DPR 701 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 135 DPR 789 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 135 DPR 851 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 135 DPR 858 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 136 DPR 235 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 136 DPR 250 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 136 DPR 271 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 136 DPR 827 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 137 DPR 1 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 137 DPR 315 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 137 DPR 528 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 137 DPR 70 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 137 DPR 700 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 137 DPR 735 (1994)
+  authority_type: tspr-decision
+  year: 1994
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 138 DPR 182 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 138 DPR 298 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 138 DPR 399 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 138 DPR 449 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 138 DPR 560 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 139 DPR 361 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Penal
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 139 DPR 361, 420 (1995)
+  authority_type: tspr-decision
+  year: 1995
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 139 DPR 869 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 140 DPR 225 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 140 DPR 24 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 140 DPR 385 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 140 DPR 452 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Administrativo
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 140 DPR 627 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 140 DPR 703 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 141 DPR 210 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 141 DPR 257 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 141 DPR 424 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 141 DPR 77 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 141 DPR 830 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 141 DPR 865 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 142 DPR 109 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 142 DPR 26 (1996)
+  authority_type: tspr-decision
+  year: 1996
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 142 DPR 464 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 142 DPR 857 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 143 DPR 243 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 143 DPR 708 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 143 DPR 85 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 144 DPR 114 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 144 DPR 425 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 144 DPR 483 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 144 DPR 522 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 144 DPR 659 (1997)
+  authority_type: tspr-decision
+  year: 1997
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 144 DPR 808 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 145 DPR 315 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 145 DPR 689 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 146 DPR 257 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 146 DPR 267 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 146 DPR 394, 402 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 146 DPR 45 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 146 DPR 64 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 146 DPR 680 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 147 DPR 179 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 147 DPR 318 (1998)
+  authority_type: tspr-decision
+  year: 1998
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 147 DPR 507 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 148 DPR 161 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 148 DPR 255 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 148 DPR 737, 762 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 148 DPR 810 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 149 DPR 159 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 149 DPR 244 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 149 DPR 318 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 149 DPR 543 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 149 DPR 557 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 149 DPR 565 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 149 DPR 691 (1999)
+  authority_type: tspr-decision
+  year: 1999
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 150 DPR 724, 764 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 151 DPR 150 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 151 DPR 711 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 152 DPR 475 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 152 DPR 652 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 152 DPR 673 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 152 DPR 79 (2000)
+  authority_type: tspr-decision
+  year: 2000
+  topics:
+  - Administrativo
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 153 DPR 1 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 153 DPR 184 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 153 DPR 374 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 153 DPR 559, 572 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 153 DPR 765 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Administrativo
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 153 DPR 812 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 154 DPR 2 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 154 DPR 29 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 154 DPR 401 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 154 DPR 510 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 155 DPR 27 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 155 DPR 460 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 155 DPR 475 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 155 DPR 560 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 155 DPR 697 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 155 DPR 713 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 155 DPR 764 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 155 DPR 820 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 155 DPR 91 (2001)
+  authority_type: tspr-decision
+  year: 2001
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 156 DPR 234 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 156 DPR 42 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 156 DPR 503 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 156 DPR 742 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 156 DPR 780 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 157 DPR 1 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 157 DPR 240 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 157 DPR 332 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 157 DPR 521 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 157 DPR 636 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 158 DPR 294 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 158 DPR 320 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 158 DPR 371 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 158 DPR 743 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 158 DPR 93 (2002)
+  authority_type: tspr-decision
+  year: 2002
+  topics:
+  - Penal
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 159 DPR 170 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 159 DPR 374 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 159 DPR 650 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 159 DPR 684 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 159 DPR 81 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 160 DPR 289 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 160 DPR 347 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 160 DPR 409 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 160 DPR 592 (2003)
+  authority_type: tspr-decision
+  year: 2003
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 161 DPR 207 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 161 DPR 215 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 161 DPR 609 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 162 DPR 104 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 162 DPR 130 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 162 DPR 334 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 162 DPR 431 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 162 DPR 602 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 162 DPR 715 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 162 DPR 745 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 162 DPR 801 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 162 DPR 830 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 163 DPR 149 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 163 DPR 175 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 163 DPR 21 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 163 DPR 223 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 163 DPR 449 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 163 DPR 48 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 163 DPR 716 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 163 DPR 716, 734 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 163 DPR 759 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 163 DPR 800 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 163 DPR 825 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 163 DPR 835 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 163 DPR 98 (2004)
+  authority_type: tspr-decision
+  year: 2004
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 164 DPR 1 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 164 DPR 220 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 164 DPR 368 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 164 DPR 797 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 164 DPR 875 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 164 DPR 90 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 165 DPR 156 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 165 DPR 28 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 165 DPR 377 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 165 DPR 408 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 165 DPR 538 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 165 DPR 873 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 166 DPR 154 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 166 DPR 210 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 166 DPR 567 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 166 DPR 742 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 166 DPR 796 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 167 DPR 149 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 167 DPR 201 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 167 DPR 21 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 167 DPR 227 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 167 DPR 255 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 167 DPR 33 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 167 DPR 400, 416 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 167 DPR 458 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 167 DPR 661 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 167 DPR 741 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 167 DPR 766 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 168 DPR 112 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 168 DPR 142 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 168 DPR 504 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 168 DPR 527 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 168 DPR 803 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 169 DPR 135 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 169 DPR 332 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 169 DPR 460 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 169 DPR 643 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 169 DPR 796 (2006)
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 170 DPR 205 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 170 DPR 237 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 170 DPR 598 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 170 DPR 606 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 170 DPR 628 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 170 DPR 804 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 170 DPR 932 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 171 DPR 140 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 171 DPR 185 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 171 DPR 313 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 171 DPR 406 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 171 DPR 46 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 171 DPR 514 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 171 DPR 549 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 171 DPR 670 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 171 DPR 789 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 171 DPR 863 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 171 DPR 911 (2005)
+  authority_type: tspr-decision
+  year: 2005
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 172 DPR 1010 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 172 DPR 139 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 172 DPR 216 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 172 DPR 232 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 172 DPR 320, 324 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 172 DPR 448 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 172 DPR 462 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 172 DPR 503, 513 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 172 DPR 676 (2007)
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 173 DPR 150 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 173 DPR 170 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 173 DPR 254 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Constitucional
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 173 DPR 292 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 173 DPR 304 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 173 DPR 587 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 173 DPR 694 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 173 DPR 804 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 173 DPR 870 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Administrativo
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 173 DPR 998 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 174 DPR 194 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 174 DPR 216 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 174 DPR 393 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 174 DPR 640 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 174 DPR 686 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 174 DPR 813 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 175 DPR 1007 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 175 DPR 218 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 175 DPR 314 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 175 DPR 668 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 175 DPR 690 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 175 DPR 799 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 176 DPR 133 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 176 DPR 250 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 176 DPR 454 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 176 DPR 528 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 176 DPR 848 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 176 DPR 951 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 177 DPR 121 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 177 DPR 177 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 177 DPR 369 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 177 DPR 398 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 177 DPR 415 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 177 DPR 484 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 177 DPR 596 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 177 DPR 765 (2009)
+  authority_type: tspr-decision
+  year: 2009
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 177 DPR 822 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 178 DPR 1 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 178 DPR 163 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 178 DPR 363 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 178 DPR 476 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 178 DPR 563 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 178 DPR 636 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 178 DPR 803 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 178 DPR 820 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 178 DPR 969 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 179 DPR 125 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 179 DPR 231 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 179 DPR 253 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 179 DPR 359 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 179 DPR 391 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 179 DPR 481 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 179 DPR 605 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 179 DPR 643 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 179 DPR 674 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 179 DPR 692 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 179 DPR 720 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 179 DPR 774 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 179 DPR 872 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 179 DPR 98 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 179 DPR 990 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 180 DPR 1003 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 180 DPR 253 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 180 DPR 387(2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 180 DPR 497 (2010)
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 180 DPR 579 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 180 DPR 655 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 180 DPR 920 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 181 DPR 101 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 181 DPR 386 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 181 DPR 663 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 181 DPR 699 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 181 DPR 718 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 181 DPR 72 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 181 DPR 852 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 181 DPR 969 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 182 DPR 129 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 182 DPR 239 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 182 DPR 313 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 182 DPR 411 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 182 DPR 48 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 182 DPR 485 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 182 DPR 776 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 182 DPR 824 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 183 DPR 50 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 183 DPR 530 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 183 DPR 827, 879 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 183 DPR 991 (2011)
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 184 DPR 281 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 184 DPR 898 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 185 DPR 40 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 186 DPR 311 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 186 DPR 365 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 186 DPR 532 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 187 DPR 42 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 187 DPR 465 (2012)
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 188 DPR 467 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 188 DPR 598 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 188 DPR 828 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 189 DPR 1033 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 189 DPR 123 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 189 DPR 561 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 189 DPR 787 (2013)
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 195 DPR 182 (2016)
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2006 TSPR 16
+  authority_type: tspr-decision
+  year: 2006
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2007 TSPR 133
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2007 TSPR 87
+  authority_type: tspr-decision
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2010 TSPR 142
+  authority_type: tspr-decision
+  year: 2010
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 136
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 156
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 176
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 183
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 189
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 207
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2011 TSPR 78
+  authority_type: tspr-decision
+  year: 2011
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 105
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 106
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 11
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 12
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 126
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 134
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 141
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 150
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 157
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 158
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 165
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 170
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 179
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 3
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 5
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 50
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 57
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 58
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 63
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 68
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 94
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2012 TSPR 96
+  authority_type: tspr-decision
+  year: 2012
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 104
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 106
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 115
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 12
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 122
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 141
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 156
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 20
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 31
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 34
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 39
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 422
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 56
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 68
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 7
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2013 TSPR 81
+  authority_type: tspr-decision
+  year: 2013
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 108
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 118
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 119
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 120
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 133
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 138
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 28
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 3
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 32
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 36
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 419
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 46
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 52
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 53
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 58
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 59
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 7
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 75
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 82
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2014 TSPR 86
+  authority_type: tspr-decision
+  year: 2014
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 132
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 157
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 158
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 162
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 172
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 19
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 4
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 43
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2015 TSPR 81
+  authority_type: tspr-decision
+  year: 2015
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 1
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 124
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 15
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 194
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 197
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 210
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 224
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 232
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 239
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 247
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 47
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 50
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 51
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 57
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 76
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2016 TSPR 79
+  authority_type: tspr-decision
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 129
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 138
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 155
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 172
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 173
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 175
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 194
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 39
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 67
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 88
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2017 TSPR 92
+  authority_type: tspr-decision
+  year: 2017
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 102
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 146
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 148
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 149
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 157
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 17
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 195
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 203
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 22
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 68
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2018 TSPR 98
+  authority_type: tspr-decision
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 109
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Administrativo
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 112
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 116
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 117
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 129
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 137
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 138
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 146
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 176
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 191
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 210
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 225
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 23
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 241
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 242
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 40
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 42
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 43
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 54
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 59
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 71
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 81
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 94
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 97
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2019 TSPR 99
+  authority_type: tspr-decision
+  year: 2019
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 104
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 109
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 110
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 125
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 14
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 26
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 29
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 3
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 30
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 31
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 56
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 63
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 69
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 7
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 78
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 8
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2020 TSPR 96
+  authority_type: tspr-decision
+  year: 2020
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 108
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 109
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 123
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 130
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 141
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 149
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 160
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 21
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 32
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 45
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 58
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 73
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 74
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2021 TSPR 78
+  authority_type: tspr-decision
+  year: 2021
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 101
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 103
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 106
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 112
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 127
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 139
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 14
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 47
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 48
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 57
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 64
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 84
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2022 TSPR 95
+  authority_type: tspr-decision
+  year: 2022
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 105
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 108
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 119
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 120
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 149
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 15
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 35
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 44
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2023 TSPR 8
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 101
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 130
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 138
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 140
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 24
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 29
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 41
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 47
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 50
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 58
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 59
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 60
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 61
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 64
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 68
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Daños
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 70
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 81
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 82
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 85
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 95
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 97
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 2024 TSPR 99
+  authority_type: tspr-decision
+  year: 2024
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2025 TSPR 3
+  authority_type: tspr-decision
+  year: 2025
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 2025 TSPR 6
+  authority_type: tspr-decision
+  year: 2025
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 2025 TSPR 7
+  authority_type: tspr-decision
+  year: 2025
+  topics:
+  - Administrativo
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 220 U.S. 506 (1911)
+  authority_type: federal-decision
+  year: 1911
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 239 U.S. 441 (1915)
+  authority_type: federal-decision
+  year: 1915
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 24 DPR 669, 672 (1916)
+  authority_type: tspr-decision
+  year: 1916
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 274 U.S. 259 (1927)
+  authority_type: federal-decision
+  year: 1927
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 299 U.S. 304 (1936)
+  authority_type: federal-decision
+  year: 1936
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 312 U.S. 100 (1941)
+  authority_type: federal-decision
+  year: 1941
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 335 U.S. 1 (1948)
+  authority_type: federal-decision
+  year: 1948
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 343 U.S. 579 (1952)
+  authority_type: federal-decision
+  year: 1952
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 347 U.S. 222 (1954)
+  authority_type: federal-decision
+  year: 1954
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 402 U.S. 146, 150 (1971)
+  authority_type: federal-decision
+  year: 1971
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 405 F.3d 50 (1st Cir. 2005)
+  authority_type: federal-decision
+  year: 2005
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 408 U.S. 564 (1972)
+  authority_type: federal-decision
+  year: 1972
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 409 U.S. 322 (1973)
+  authority_type: federal-decision
+  year: 1973
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 410 U.S. 224 (1973)
+  authority_type: federal-decision
+  year: 1973
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 411 U.S. 564, 578-79 (1973)
+  authority_type: federal-decision
+  year: 1973
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 413 U.S. 634 (1973)
+  authority_type: federal-decision
+  year: 1973
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 418 U.S. 683 (1974)
+  authority_type: federal-decision
+  year: 1974
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 419 U.S. 393 (1975)
+  authority_type: federal-decision
+  year: 1975
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 423 U.S. 44 (1975)
+  authority_type: federal-decision
+  year: 1975
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 425 U.S. 435 (1976)
+  authority_type: federal-decision
+  year: 1976
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 448 U.S. 607 (1980)
+  authority_type: federal-decision
+  year: 1980
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 451 F.2d 26 (1st Cir. 1971)
+  authority_type: federal-decision
+  year: 1971
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 457 U.S. 202 (1982)
+  authority_type: federal-decision
+  year: 1982
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 46 DPR 350 (1934)
+  authority_type: tspr-decision
+  year: 1934
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 48 DPR 884, 889 (1935)
+  authority_type: tspr-decision
+  year: 1935
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 518 F.2d 8 (1* Cir. 1975)
+  authority_type: federal-decision
+  year: 1975
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 518 U.S. 50 (2010)
+  authority_type: federal-decision
+  year: 2010
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 52 DPR 611 (1938)
+  authority_type: tspr-decision
+  year: 1938
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 61 DPR 114 (1942)
+  authority_type: tspr-decision
+  year: 1942
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 62 DPR 222 (1965)
+  authority_type: tspr-decision
+  year: 1965
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 62 DPR 47, 50 (1943)
+  authority_type: tspr-decision
+  year: 1943
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 63 DPR 673 (1944)
+  authority_type: tspr-decision
+  year: 1944
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 64 DPR 602 (1945)
+  authority_type: tspr-decision
+  year: 1945
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 670 F.3d 310, 327 (1st Cir. 2012)
+  authority_type: federal-decision
+  year: 2012
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 68 DPR 818 (1948)
+  authority_type: tspr-decision
+  year: 1948
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 70 DPR 181 (1949)
+  authority_type: tspr-decision
+  year: 1949
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 71 DPR 290 (1950)
+  authority_type: tspr-decision
+  year: 1950
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 73 DPR 278 (1952)
+  authority_type: tspr-decision
+  year: 1952
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 73 DPR 417 (1952)
+  authority_type: tspr-decision
+  year: 1952
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 74 DPR 29 (1952)
+  authority_type: tspr-decision
+  year: 1952
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 74 DPR 637 (1953)
+  authority_type: tspr-decision
+  year: 1953
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 75 DPR 874 (1954)
+  authority_type: tspr-decision
+  year: 1954
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 758 F.2d 40 (1st Cir. 1985)
+  authority_type: federal-decision
+  year: 1985
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 77 DPR 136, 141 (1954)
+  authority_type: tspr-decision
+  year: 1954
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 77 DPR 624 (1954)
+  authority_type: tspr-decision
+  year: 1954
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 77 F.3d 567 (1st Cir. 1996)
+  authority_type: federal-decision
+  year: 1996
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: 79 DPR 510 (1956)
+  authority_type: tspr-decision
+  year: 1956
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 79 DPR 760 (1956)
+  authority_type: tspr-decision
+  year: 1956
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 80 DPR 646 (1958)
+  authority_type: tspr-decision
+  year: 1958
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 80 DPR 754 (1958)
+  authority_type: tspr-decision
+  year: 1958
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 82 DPR 514 (1957)
+  authority_type: tspr-decision
+  year: 1957
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 82 DPR 514 (1961)
+  authority_type: tspr-decision
+  year: 1961
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 83 DPR 186 (1960)
+  authority_type: tspr-decision
+  year: 1960
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 84 DPR 308 (1961)
+  authority_type: tspr-decision
+  year: 1961
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 85 DPR 135 (1962)
+  authority_type: tspr-decision
+  year: 1962
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 85 DPR 552 (1962)
+  authority_type: tspr-decision
+  year: 1962
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 86 DPR 104 (1962)
+  authority_type: tspr-decision
+  year: 1962
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 87 DPR 30 (1962)
+  authority_type: tspr-decision
+  year: 1962
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 87 DPR 711 (1963)
+  authority_type: tspr-decision
+  year: 1963
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 89 DPR 150 (1963)
+  authority_type: tspr-decision
+  year: 1963
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 89 DPR 456 (1963)
+  authority_type: tspr-decision
+  year: 1963
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 89 DPR 481 (1963)
+  authority_type: tspr-decision
+  year: 1963
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 92 DPR 245 (1965)
+  authority_type: tspr-decision
+  year: 1965
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 93 DPR 551 (1966)
+  authority_type: tspr-decision
+  year: 1966
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: 94 DPR 157 (1967)
+  authority_type: tspr-decision
+  year: 1967
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 94 DPR 834 (1967)
+  authority_type: tspr-decision
+  year: 1967
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 95 DPR 867 (1968)
+  authority_type: tspr-decision
+  year: 1968
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 96 DPR 796 (1968)
+  authority_type: tspr-decision
+  year: 1968
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 96 DPR 807 (1968)
+  authority_type: tspr-decision
+  year: 1968
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 98 DPR 21 (1969)
+  authority_type: tspr-decision
+  year: 1969
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: 98 DPR 5, 12 (1969)
+  authority_type: tspr-decision
+  year: 1969
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: 98 DPR 534 (1970)
+  authority_type: tspr-decision
+  year: 1970
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 98 DPR 940 (1970)
+  authority_type: tspr-decision
+  year: 1970
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: 99 DPR 113 (1970)
+  authority_type: tspr-decision
+  year: 1970
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: 99 DPR 435, 442 (1970)
+  authority_type: tspr-decision
+  year: 1970
+  topics:
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: Constitución de los Estados Unidos
+  authority_type: statute
+  year: 1788
+  topics:
+  - Constitucional
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Constitución del Estado Libre Asociado de Puerto Rico
+  authority_type: statute
+  year: 1952
+  topics:
+  - Penal
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Código Civil de Puerto Rico
+  authority_type: code
+  year: null
+  topics:
+  - Penal
+  - Daños
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: Código Civil de Puerto Rico de 2020
+  authority_type: code
+  year: 2020
+  topics:
+  - Penal
+  - Daños
+  - Obligaciones
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: Código Electoral de Puerto Rico
+  authority_type: code
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Código Electoral de Puerto Rico de 2020
+  authority_type: code
+  year: 2020
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Código Penal de Puerto Rico
+  authority_type: code
+  year: null
+  topics:
+  - Penal
+  - Constitucional
+  - Derechos reales
+  verification_status: UNVERIFIED
+- citation: Código Penal de Puerto Rico de 2004
+  authority_type: code
+  year: 2004
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Código Penal de Puerto Rico de 2012
+  authority_type: code
+  year: 2012
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Código Penal de Puerto Rico de 2014
+  authority_type: code
+  year: 2014
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 100-1959
+  authority_type: special-law
+  year: 1959
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley 104-1955
+  authority_type: special-law
+  year: 1955
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 105-2007
+  authority_type: special-law
+  year: 2007
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 123-2024
+  authority_type: special-law
+  year: 2024
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 129-2020
+  authority_type: special-law
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 13-2024
+  authority_type: special-law
+  year: 2024
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 147-2019
+  authority_type: special-law
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 15-2011
+  authority_type: special-law
+  year: 2011
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 153-2024
+  authority_type: special-law
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 165-2020
+  authority_type: special-law
+  year: 2020
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley 17-1988
+  authority_type: special-law
+  year: 1988
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 174-2018
+  authority_type: special-law
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 175-2007
+  authority_type: special-law
+  year: 2007
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 182-2012
+  authority_type: special-law
+  year: 2012
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 192-1996
+  authority_type: special-law
+  year: 1996
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 196-2009
+  authority_type: special-law
+  year: 2009
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 210-2016
+  authority_type: special-law
+  year: 2016
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 242-2018
+  authority_type: special-law
+  year: 2018
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 246-2014
+  authority_type: special-law
+  year: 2014
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 266-2004
+  authority_type: special-law
+  year: 2004
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 28-2023
+  authority_type: special-law
+  year: 2023
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 38-2017
+  authority_type: special-law
+  year: 2017
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 40-2021
+  authority_type: special-law
+  year: 2021
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 402-1950
+  authority_type: special-law
+  year: 1950
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: Ley 42-2017
+  authority_type: special-law
+  year: 2017
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 43-2016
+  authority_type: special-law
+  year: 2016
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: Ley 48-2024
+  authority_type: special-law
+  year: 2024
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 54-1989
+  authority_type: special-law
+  year: 1989
+  topics:
+  - Penal
+  verification_status: UNVERIFIED
+- citation: Ley 55-2020
+  authority_type: special-law
+  year: 2020
+  topics:
+  - Obligaciones
+  verification_status: UNVERIFIED
+- citation: Ley 61-2009
+  authority_type: special-law
+  year: 2009
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 62-2021
+  authority_type: special-law
+  year: 2021
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley 73-2019
+  authority_type: special-law
+  year: 2019
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 73-2020
+  authority_type: special-law
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 85-2020
+  authority_type: special-law
+  year: 2020
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley 95-2019
+  authority_type: special-law
+  year: 2019
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 139
+  authority_type: special-law
+  year: null
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 170
+  authority_type: special-law
+  year: null
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 2
+  authority_type: special-law
+  year: null
+  topics:
+  - Administrativo
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 238
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 45
+  authority_type: special-law
+  year: null
+  topics:
+  - Administrativo
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 48
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 54
+  authority_type: special-law
+  year: null
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 63
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 7
+  authority_type: special-law
+  year: null
+  topics:
+  - Administrativo
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 71
+  authority_type: special-law
+  year: null
+  topics:
+  - Daños
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 74
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 76
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 90
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Ley Núm. 95
+  authority_type: special-law
+  year: null
+  topics:
+  - Constitucional
+  verification_status: UNVERIFIED
+- citation: Reglamento Núm. 9038
+  authority_type: regulation
+  year: null
+  topics:
+  - Administrativo
+  verification_status: UNVERIFIED

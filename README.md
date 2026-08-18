@@ -100,6 +100,12 @@ print(result.quality.status)
 
 ## Citation safety
 
+`legal-agents-pr authorities` searches a citation-only candidate index by topic or citation. The
+index contains factual citation metadata extracted from user-supplied study materials, not the
+materials or their doctrinal content. Every result is `UNVERIFIED` and must be checked against an
+official source before use. See
+[docs/candidate-authority-index.md](docs/candidate-authority-index.md).
+
 Authorities carry `VERIFIED`, `PARTIALLY_VERIFIED`, or `UNVERIFIED`. The runtime never upgrades a citation based solely on model confidence. Blogs and unknown sources cannot be represented as primary authority.
 
 Agent source references resolve through `src/legal_agents_pr/sources/registry.yaml`. The runtime injects only version, provenance and coverage cautions into the system context; catalog membership never means that the source text or current law was verified.

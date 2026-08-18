@@ -5,6 +5,7 @@ import json
 import sys
 
 from legal_agents_pr import LegalAgent
+from legal_agents_pr.core.candidate_authority_index import CandidateAuthorityIndexLoader
 from legal_agents_pr.core.config import RuntimeConfig
 from legal_agents_pr.core.exceptions import LegalAgentsError
 from legal_agents_pr.core.loader import AgentLoader
@@ -20,6 +21,12 @@ def build_parser() -> argparse.ArgumentParser:
     sub.add_parser("sources", help="List versioned source metadata")
     source = sub.add_parser("source", help="Show one source metadata record")
     source.add_argument("source_id")
+    authorities = sub.add_parser(
+        "authorities", help="List unverified authority candidates for official-source research"
+    )
+    authorities.add_argument("--topic")
+    authorities.add_argument("--citation")
+    authorities.add_argument("--limit", type=int, default=25)
     info = sub.add_parser("info", help="Show an agent definition")
     info.add_argument("agent")
     route = sub.add_parser("route", help="Route a legal question")
@@ -39,6 +46,7 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     loader = AgentLoader()
     source_loader = SourceCatalogLoader()
+    candidate_loader = CandidateAuthorityIndexLoader()
     try:
         if args.command == "list":
             for agent_id in loader.list_ids():
@@ -54,6 +62,16 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "source":
             print(source_loader.get(args.source_id).model_dump_json(indent=2))
             return 0
+        if args.command == "authorities":
+            for authority in candidate_loader.search(
+                topic=args.topic, citation=args.citation, limit=args.limit
+            ):
+                topics = ", ".join(authority.topics)
+                print(
+                    f"{authority.citation}\t{authority.authority_type.value}\t"
+                    f"{authority.year or 'unknown'}\t{topics}\tUNVERIFIED"
+                )
+            return 0
         if args.command == "route":
             print(DomainRouter(loader).route(args.query).model_dump_json(indent=2))
             return 0
@@ -66,6 +84,7 @@ def main(argv: list[str] | None = None) -> int:
                 "known_providers": default_registry().names(),
                 "agents": loader.list_ids(),
                 "source_count": len(source_loader.load().sources),
+                "candidate_authority_count": len(candidate_loader.load().authorities),
             }
             print(json.dumps(doctor_result, ensure_ascii=False, indent=2))
             return 0
