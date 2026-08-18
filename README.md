@@ -133,3 +133,7 @@ Do not send confidential client material to a provider without an authorized pri
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE). Legal source data and third-party integrations may carry separate terms.
+
+## Citation
+
+Use the repository metadata in [CITATION.cff](CITATION.cff) when citing the software. A tagged archival release and DOI may be added later without changing the framework's legal-review safeguards.
