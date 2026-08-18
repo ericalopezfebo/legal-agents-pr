@@ -35,3 +35,7 @@ A production source connector must:
 ## Puerto Rico retrieval foundation
 
 `PuertoRicoOfficialConnector` currently allowlists the Poder Judicial, Departamento de Estado, SUTRA and OGP hosts. It requires HTTPS, rejects credentials and nonstandard ports, refuses implicit redirects, enforces content-type and size limits, hashes the retrieved bytes and records timezone-aware retrieval evidence. Retrieval establishes document identity only; parsing, pinpoint matching, legal effect and currency remain separate steps.
+
+## TSPR index metadata
+
+`TsprDecisionIndexParser` extracts citation, docket number, parties, author, date, subject, document classification and document URL from annual Puerto Rico Supreme Court index material. Incomplete entries produce parse issues instead of fabricated fields. Every record is marked `metadata_only=true`: an index entry does not prove the content, precedential force or later treatment of the linked judicial document.
