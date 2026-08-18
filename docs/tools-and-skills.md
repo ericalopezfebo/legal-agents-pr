@@ -26,6 +26,11 @@ comprobación del apoyo real de cada proposición y control adversativo antes de
 surge de una [revisión documentada de colecciones externas](external-skill-review.md), sin copiar
 texto o reglas sustantivas de terceros.
 
+Los skills de términos ahora distinguen procedimiento civil, administrativo, evidencia y práctica
+notarial. La [revisión de materiales sobre términos](deadline-materials-review.md) documenta qué
+autoridades primarias se cotejaron y qué datos permanecen pendientes, sin incorporar los PDF
+privados al repositorio.
+
 Un skill describe una capacidad concreta. Un workflow coordina varios skills y conserva el estado
 del asunto. Añadir instrucciones a un skill no convierte sus resultados en autoridad verificada ni
 permite saltar el Quality Gate.

@@ -8,7 +8,7 @@ capabilities: [instrument-review, capacity, appearance, acknowledgment, witness-
 preferred_sources: [Ley Notarial, Reglamento Notarial, Tribunal Supremo de Puerto Rico, ODIN]
 source_refs: [pr-civil-code-55-2020-2024-08-20, pr-professional-conduct-rules-er-2025-02]
 allowed_tools: [statutes, regulations, case-law]
-skills: [notarial-instrument-drafting, citation-check]
+skills: [notarial-instrument-drafting, notarial-deadlines, citation-check]
 handoffs: [civil-law, contracts, professional-responsibility]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
