@@ -8,7 +8,7 @@ capabilities: [contract-identification, party-extraction, obligation-mapping, cl
 preferred_sources: [Código Civil de Puerto Rico, legislación especial, Tribunal Supremo de Puerto Rico]
 source_refs: [pr-civil-code-55-2020-2024-08-20]
 allowed_tools: [statutes, case-law, document-analysis]
-skills: [contract-review, contract-drafting, citation-check]
+skills: [contract-review, contract-drafting, prescription-analysis, citation-check]
 handoffs: [civil-law, labor-employment-law, notarial-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
