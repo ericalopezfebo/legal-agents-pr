@@ -25,6 +25,16 @@ def test_candidate_index_searches_by_topic_and_citation() -> None:
     assert all("TSPR" in item.citation for item in tspr)
 
 
+def test_candidate_index_exposes_focused_admin_and_civil_topics() -> None:
+    loader = CandidateAuthorityIndexLoader()
+    administrative = loader.search(topic="administrativo", limit=100)
+    civil_procedure = loader.search(topic="procedimiento civil", limit=100)
+    assert len(administrative) == 100
+    assert len(civil_procedure) == 100
+    assert all("Administrativo" in item.topics for item in administrative)
+    assert all("Procedimiento civil" in item.topics for item in civil_procedure)
+
+
 def test_candidate_index_rejects_preverified_records(tmp_path: Path) -> None:
     manifest = tmp_path / "candidates.yaml"
     manifest.write_text(
