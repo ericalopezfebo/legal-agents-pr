@@ -10,10 +10,13 @@ class AgentNotFoundError(LegalAgentsError):
     pass
 
 
+class SourceNotFoundError(LegalAgentsError):
+    pass
+
+
 class ProviderError(LegalAgentsError):
     pass
 
 
 class HandoffError(LegalAgentsError):
     pass
-

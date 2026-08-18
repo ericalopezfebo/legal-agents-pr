@@ -9,6 +9,7 @@ from legal_agents_pr.core.config import RuntimeConfig
 from legal_agents_pr.core.exceptions import LegalAgentsError
 from legal_agents_pr.core.loader import AgentLoader
 from legal_agents_pr.core.router import DomainRouter
+from legal_agents_pr.core.source_catalog import SourceCatalogLoader
 from legal_agents_pr.providers.registry import default_registry
 
 
@@ -16,6 +17,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="legal-agents-pr")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("list", help="List installed agents")
+    sub.add_parser("sources", help="List versioned source metadata")
+    source = sub.add_parser("source", help="Show one source metadata record")
+    source.add_argument("source_id")
     info = sub.add_parser("info", help="Show an agent definition")
     info.add_argument("agent")
     route = sub.add_parser("route", help="Route a legal question")
@@ -34,6 +38,7 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     loader = AgentLoader()
+    source_loader = SourceCatalogLoader()
     try:
         if args.command == "list":
             for agent_id in loader.list_ids():
@@ -41,6 +46,13 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         if args.command == "info":
             print(loader.load(args.agent).definition.model_dump_json(indent=2))
+            return 0
+        if args.command == "sources":
+            for source_item in source_loader.load().sources:
+                print(f"{source_item.id}\t{source_item.short_title}")
+            return 0
+        if args.command == "source":
+            print(source_loader.get(args.source_id).model_dump_json(indent=2))
             return 0
         if args.command == "route":
             print(DomainRouter(loader).route(args.query).model_dump_json(indent=2))
@@ -53,6 +65,7 @@ def main(argv: list[str] | None = None) -> int:
                 "selected_model": config.model,
                 "known_providers": default_registry().names(),
                 "agents": loader.list_ids(),
+                "source_count": len(source_loader.load().sources),
             }
             print(json.dumps(doctor_result, ensure_ascii=False, indent=2))
             return 0

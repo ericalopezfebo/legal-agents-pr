@@ -58,6 +58,8 @@ Offline:
 
 ```bash
 legal-agents-pr list
+legal-agents-pr sources
+legal-agents-pr source pr-lpau-38-2017-2025-05-16
 legal-agents-pr route "¿Procede revisión judicial de la agencia?"
 legal-agents-pr ask administrative-law "Identifica los asuntos generales" --output json
 ```
@@ -94,10 +96,13 @@ print(result.quality.status)
 - `contracts`
 - `evidence`
 - `appellate-law`
+- `professional-responsibility`
 
 ## Citation safety
 
 Authorities carry `VERIFIED`, `PARTIALLY_VERIFIED`, or `UNVERIFIED`. The runtime never upgrades a citation based solely on model confidence. Blogs and unknown sources cannot be represented as primary authority.
+
+Agent source references resolve through `src/legal_agents_pr/sources/registry.yaml`. The runtime injects only version, provenance and coverage cautions into the system context; catalog membership never means that the source text or current law was verified.
 
 ## Quality lifecycle
 

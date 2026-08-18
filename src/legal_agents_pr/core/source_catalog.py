@@ -5,6 +5,7 @@ from pathlib import Path
 
 import yaml
 
+from legal_agents_pr.core.exceptions import SourceNotFoundError
 from legal_agents_pr.schemas.source import LegalSource, SourceCatalog
 
 
@@ -23,7 +24,7 @@ class SourceCatalogLoader:
         for source in catalog.sources:
             if source.id == source_id:
                 return source
-        raise KeyError(f"Unknown source: {source_id}")
+        raise SourceNotFoundError(f"Unknown source: {source_id}")
 
     def validate_references(self, source_refs: list[str]) -> None:
         available = {source.id for source in self.load().sources}
