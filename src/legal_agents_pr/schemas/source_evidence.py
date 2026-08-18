@@ -19,6 +19,12 @@ class CurrencyStatus(str, Enum):
     NOT_CHECKED = "NOT_CHECKED"
 
 
+class SourceIdentifierStatus(str, Enum):
+    VERIFIED_SOURCE_IDENTIFIER = "VERIFIED_SOURCE_IDENTIFIER"
+    SOURCE_FOUND_IDENTIFIER_UNCONFIRMED = "SOURCE_FOUND_IDENTIFIER_UNCONFIRMED"
+    OCR_REQUIRED = "OCR_REQUIRED"
+
+
 class SourceLocator(BaseModel):
     section: str | None = None
     article: str | None = None
@@ -93,3 +99,20 @@ class VerificationEvidence(BaseModel):
             and self.checked_through >= as_of
             and self.legal_effect == LegalEffectStatus.EFFECTIVE
         )
+
+
+class SourceIdentifierVerification(BaseModel):
+    requested_identifier: str
+    normalized_identifier: str
+    status: SourceIdentifierStatus
+    retrieval: RetrievalEvidence
+    matches: list[VerificationEvidence] = Field(default_factory=list)
+    issues: list[str] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def verified_identifier_requires_match(self) -> "SourceIdentifierVerification":
+        if self.status == SourceIdentifierStatus.VERIFIED_SOURCE_IDENTIFIER and not self.matches:
+            raise ValueError("VERIFIED_SOURCE_IDENTIFIER requires at least one exact match")
+        if self.status != SourceIdentifierStatus.VERIFIED_SOURCE_IDENTIFIER and self.matches:
+            raise ValueError("unconfirmed source identifiers cannot contain verification matches")
+        return self

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from io import BytesIO
 
 from pypdf import PdfReader
@@ -71,6 +72,7 @@ class PdfTextExtractor:
             raise ValueError("query cannot be empty")
         if max_matches < 1 or max_matches > 100:
             raise ValueError("max_matches must be between 1 and 100")
+        query_pattern = re.compile(rf"(?<!\w){re.escape(normalized_query)}(?!\w)", re.IGNORECASE)
 
         matches: list[ExactTextMatch] = []
         for page in document.pages:
@@ -79,7 +81,8 @@ class PdfTextExtractor:
                 for line_end in range(line_start, len(page.lines)):
                     candidate_parts.append(page.lines[line_end])
                     candidate = _normalize(" ".join(candidate_parts))
-                    position = candidate.casefold().find(normalized_query.casefold())
+                    found = query_pattern.search(candidate)
+                    position = found.start() if found else -1
                     if 0 <= position < len(page.lines[line_start]):
                         matches.append(
                             ExactTextMatch(
