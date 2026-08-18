@@ -82,6 +82,15 @@ class AgentRuntime:
                 if isinstance(authority_payload, dict):
                     authority_payload["verification_status"] = VerificationStatus.UNVERIFIED.value
                     authority_payload.pop("evidence", None)
+                    if "treatment" in authority_payload:
+                        authority_payload["treatment"] = {
+                            "status": "UNKNOWN_UNVERIFIED",
+                            "confirmed": False,
+                            "basis": "AUTOMATED_CANDIDATE",
+                            "notes": [
+                                "Provider-supplied treatment cannot self-certify legal history"
+                            ],
+                        }
             output = LegalAnalysis.model_validate(payload)
         except (json.JSONDecodeError, ValueError):
             output = LegalAnalysis(

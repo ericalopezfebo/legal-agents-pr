@@ -2,6 +2,7 @@ from enum import Enum
 
 from pydantic import BaseModel, model_validator
 
+from .judicial_treatment import JudicialTreatmentAssessment
 from .source_evidence import VerificationEvidence
 
 
@@ -26,6 +27,7 @@ class Authority(BaseModel):
     verification_status: VerificationStatus = VerificationStatus.UNVERIFIED
     quotation: str | None = None
     evidence: VerificationEvidence | None = None
+    treatment: JudicialTreatmentAssessment | None = None
 
     @model_validator(mode="after")
     def verified_requires_evidence(self) -> "Authority":

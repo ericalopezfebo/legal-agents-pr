@@ -8,6 +8,9 @@ precedencial.
 La verificación exacta de citas TSPR, DPR y leyes numeradas se documenta en
 [source-identifier-verification.md](source-identifier-verification.md).
 
+Los estados y requisitos para tratamiento posterior se documentan en
+[judicial-treatment.md](judicial-treatment.md).
+
 The framework separates four questions that must not be collapsed into one status:
 
 1. **Identity:** what document was retrieved, from which URL and publisher?
