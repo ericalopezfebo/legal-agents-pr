@@ -14,6 +14,10 @@ class SourceNotFoundError(LegalAgentsError):
     pass
 
 
+class SourceRetrievalError(LegalAgentsError):
+    pass
+
+
 class ProviderError(LegalAgentsError):
     pass
 

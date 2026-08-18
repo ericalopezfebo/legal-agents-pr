@@ -31,3 +31,7 @@ A production source connector must:
 - classify legal effect conservatively;
 - state the date through which later authority was checked;
 - return `UNKNOWN` or `NOT_CHECKED` rather than infer missing facts.
+
+## Puerto Rico retrieval foundation
+
+`PuertoRicoOfficialConnector` currently allowlists the Poder Judicial, Departamento de Estado, SUTRA and OGP hosts. It requires HTTPS, rejects credentials and nonstandard ports, refuses implicit redirects, enforces content-type and size limits, hashes the retrieved bytes and records timezone-aware retrieval evidence. Retrieval establishes document identity only; parsing, pinpoint matching, legal effect and currency remain separate steps.

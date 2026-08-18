@@ -8,6 +8,7 @@ All notable changes will be documented here. This project follows semantic versi
 - Require matching evidence for verified authorities.
 - Prevent model-provider output from self-certifying citation verification.
 - Block current-law validation unless effective authority was checked through the requested date.
+- Add allowlisted, size-limited retrieval for priority Puerto Rico official-source domains.
 
 ## 0.1.0 - 2026-08-18
 
