@@ -1,0 +1,62 @@
+schema_version: "1.0"
+sources:
+  - id: pr-lpau-38-2017-2025-05-16
+    title: Ley de Procedimiento Administrativo Uniforme del Gobierno de Puerto Rico, Ley 38-2017
+    short_title: LPAU
+    jurisdiction: pr
+    source_type: statute
+    publisher: Oficina de Gerencia y Presupuesto de Puerto Rico
+    revision_as_of: 2025-05-16
+    coverage_note: Compilación con enmiendas hasta la Ley 16-2025; verificar vigencia y ley orgánica especial al usarla.
+    filename: 38-2017.pdf
+    sha256: b65036207e8acd26f55162cd8246e7f34ada85e8074c1b37e3898b2a82d0acbf
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-labor-reform-4-2017-2024-04-15
+    title: Ley de Transformación y Flexibilidad Laboral, Ley 4-2017
+    short_title: Ley 4-2017
+    jurisdiction: pr
+    source_type: statute
+    publisher: Oficina de Gerencia y Presupuesto de Puerto Rico
+    revision_as_of: 2024-04-15
+    coverage_note: Compilación que identifica la anulación de la Ley 41-2022; requiere análisis temporal y de aplicabilidad.
+    filename: 4-2017.pdf
+    sha256: 8efa250e2bd7af11515b3970935a050aff2a31a506e1cf615e48723b1e9cc484
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-public-employment-8-2017-2026-03-18
+    title: Ley para la Administración y Transformación de los Recursos Humanos en el Gobierno de Puerto Rico, Ley 8-2017
+    short_title: Ley 8-2017
+    jurisdiction: pr
+    source_type: statute
+    publisher: Oficina de Gerencia y Presupuesto de Puerto Rico
+    revision_as_of: 2026-03-18
+    coverage_note: Compilación con enmiendas hasta la Ley 87-2025; aplica al régimen de empleo público según su alcance.
+    filename: 8-2017.pdf
+    sha256: d9bc5d1966308b93a1da91e7b09069935a379c1f392a8fc9fe07c35eca1fc81d
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-antidiscrimination-100-1959-2024-08-05
+    title: Ley contra el Discrimen en el Empleo, Ley 100 de 30 de junio de 1959
+    short_title: Ley 100-1959
+    jurisdiction: pr
+    source_type: statute
+    publisher: Oficina de Gerencia y Presupuesto de Puerto Rico
+    revision_as_of: 2024-08-05
+    coverage_note: Compilación con enmiendas hasta la Ley 106-2024; requiere verificar cobertura, fecha del acto y remedios.
+    filename: 100-1959.pdf
+    sha256: d15c2a94c54696e807b4271562d7cb9aeab1e3dadd66b9641309729fdc620f83
+    status: user-supplied-official-copy
+    official_url:
+  - id: pr-civil-procedure-rules-2023-03
+    title: Reglas de Procedimiento Civil de Puerto Rico
+    short_title: Reglas de Procedimiento Civil
+    jurisdiction: pr
+    source_type: court-rule
+    publisher: Secretariado de la Conferencia Judicial y Notarial, Tribunal Supremo de Puerto Rico
+    revision_as_of: 2023-03-31
+    coverage_note: Texto indica enmiendas estatutarias incorporadas hasta marzo de 2023; verificar reglas, órdenes y enmiendas posteriores.
+    filename: Reglas-de-Proc-Civil.pdf
+    sha256: fcde40ee47b28fa7bb61b39bee60d39de5259b244cb265151f730305685eef59
+    status: user-supplied-official-copy
+    official_url:

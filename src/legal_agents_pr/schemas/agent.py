@@ -20,6 +20,7 @@ class AgentDefinition(BaseModel):
     specialties: list[str]
     capabilities: list[str]
     preferred_sources: list[str]
+    source_refs: list[str] = Field(default_factory=list)
     allowed_tools: list[str] = Field(default_factory=list)
     skills: list[str] = Field(default_factory=list)
     handoffs: list[str] = Field(default_factory=list)
@@ -32,4 +33,3 @@ class AgentDefinition(BaseModel):
         if not value or any(ch not in "abcdefghijklmnopqrstuvwxyz0123456789-" for ch in value):
             raise ValueError("agent id must use lowercase letters, digits, and hyphens")
         return value
-

@@ -6,9 +6,9 @@ description: Analiza jurisdicción, alegaciones, mociones, descubrimiento, térm
 specialties: [litigación civil, reglas procesales, términos]
 capabilities: [jurisdiction, service, pleadings, motions, discovery, summary-judgment, reconsideration, deadlines, appeals-preservation]
 preferred_sources: [Reglas de Procedimiento Civil, legislación oficial, Tribunal Supremo de Puerto Rico]
+source_refs: [pr-civil-procedure-rules-2023-03]
 allowed_tools: [court-rules, statutes, case-law]
 skills: [answer-drafting, motion-dismiss, summary-judgment, civil-deadlines]
 handoffs: [civil-law, evidence, appellate-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
-

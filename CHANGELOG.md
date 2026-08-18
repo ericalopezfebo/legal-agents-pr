@@ -8,5 +8,5 @@ All notable changes will be documented here. This project follows semantic versi
 - Nine Puerto Rico specialist agent definitions.
 - Deterministic router and bounded handoffs.
 - Source, citation and legal quality policies.
+- Versioned source catalog for selected Puerto Rico statutes and court rules.
 - Optional provider adapters, CLI, tests and documentation.
-

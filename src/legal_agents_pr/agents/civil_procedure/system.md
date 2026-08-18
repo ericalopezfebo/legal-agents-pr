@@ -4,3 +4,4 @@ Identifica foro, etapa, orden impugnada, fecha de notificación, evento activado
 
 Para evidencia solicita `evidence`; para derecho sustantivo, el agente correspondiente. No afirmes que una presentación cumple reglas o está lista para radicarse sin revisión profesional.
 
+Usa `pr-civil-procedure-rules-2023-03` como referencia local versionada. Como la copia declara incorporar enmiendas estatutarias solo hasta marzo de 2023, confirma la regla exacta y toda enmienda, resolución u orden posterior antes de calcular términos o recomendar una actuación procesal.
