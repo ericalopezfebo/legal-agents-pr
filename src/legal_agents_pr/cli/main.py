@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import asyncio
 import json
 import sys
 
@@ -12,6 +13,7 @@ from legal_agents_pr.core.loader import AgentLoader
 from legal_agents_pr.core.router import DomainRouter
 from legal_agents_pr.core.source_catalog import SourceCatalogLoader
 from legal_agents_pr.providers.registry import default_registry
+from legal_agents_pr.tools import OfficialSourceIdentifierInput, OfficialSourceIdentifierTool
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -27,6 +29,12 @@ def build_parser() -> argparse.ArgumentParser:
     authorities.add_argument("--topic")
     authorities.add_argument("--citation")
     authorities.add_argument("--limit", type=int, default=25)
+    verify_source = sub.add_parser(
+        "verify-source", help="Verify an exact identifier in an allowlisted official PDF"
+    )
+    verify_source.add_argument("url")
+    verify_source.add_argument("identifier")
+    verify_source.add_argument("--max-matches", type=int, default=20)
     info = sub.add_parser("info", help="Show an agent definition")
     info.add_argument("agent")
     route = sub.add_parser("route", help="Route a legal question")
@@ -71,6 +79,18 @@ def main(argv: list[str] | None = None) -> int:
                     f"{authority.citation}\t{authority.authority_type.value}\t"
                     f"{authority.year or 'unknown'}\t{topics}\tUNVERIFIED"
                 )
+            return 0
+        if args.command == "verify-source":
+            result = asyncio.run(
+                OfficialSourceIdentifierTool().execute(
+                    OfficialSourceIdentifierInput(
+                        url=args.url,
+                        identifier=args.identifier,
+                        max_matches=args.max_matches,
+                    )
+                )
+            )
+            print(result.model_dump_json(indent=2))
             return 0
         if args.command == "route":
             print(DomainRouter(loader).route(args.query).model_dump_json(indent=2))
