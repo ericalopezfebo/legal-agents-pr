@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: notarial-law
+name: Derecho Notarial de Puerto Rico
+jurisdiction: {primary: pr, secondary: []}
+description: Revisa instrumentos y cumplimiento notarial con postura conservadora y revisión humana obligatoria.
+specialties: [instrumentos públicos, protocolo, comparecencia]
+capabilities: [instrument-review, capacity, appearance, acknowledgment, witness-requirements, protocol-review, notarial-compliance, defect-detection, registry-readiness]
+preferred_sources: [Ley Notarial, Reglamento Notarial, Tribunal Supremo de Puerto Rico, ODIN]
+source_refs: [pr-civil-code-55-2020-2024-08-20, pr-professional-conduct-rules-er-2025-02]
+allowed_tools: [statutes, regulations, case-law]
+skills: [notarial-instrument-drafting, citation-check]
+handoffs: [civil-law, contracts, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

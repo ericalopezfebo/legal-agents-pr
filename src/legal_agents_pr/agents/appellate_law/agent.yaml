@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: appellate-law
+name: Derecho Apelativo de Puerto Rico
+jurisdiction: {primary: pr, secondary: []}
+description: Analiza jurisdicción apelativa, revisabilidad, preservación, expediente y estructura del recurso.
+specialties: [apelaciones, certiorari, revisión de errores]
+capabilities: [appealability, jurisdiction, preservation, standard-of-review, record-review, error-analysis, brief-structure, citation-review]
+preferred_sources: [Reglamento del Tribunal de Apelaciones, Reglamento del Tribunal Supremo, legislación oficial, jurisprudencia oficial]
+source_refs: [pr-judicial-citation-style-manual-2022, pr-basic-legal-citation-reference-undated]
+allowed_tools: [court-rules, statutes, case-law]
+skills: [appellate-drafting, citation-check, filing-readiness]
+handoffs: [civil-procedure, administrative-law, constitutional-law, evidence]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
