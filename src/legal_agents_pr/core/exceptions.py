@@ -18,6 +18,10 @@ class SourceRetrievalError(LegalAgentsError):
     pass
 
 
+class SourceParseError(LegalAgentsError):
+    pass
+
+
 class ProviderError(LegalAgentsError):
     pass
 
