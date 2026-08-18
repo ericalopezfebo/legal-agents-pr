@@ -1,4 +1,5 @@
 from legal_agents_pr import LegalAgent, MockProvider
+from legal_agents_pr.schemas.authority import VerificationStatus
 from legal_agents_pr.schemas.quality import QualityStatus
 
 
@@ -23,3 +24,24 @@ def test_non_json_provider_response_fails_conservatively():
     result = LegalAgent.load("civil-law", provider=MockProvider(["plain text"])).run("Pregunta")
     assert result.quality.status == QualityStatus.DRAFT
     assert result.unverified_claims
+
+
+def test_provider_cannot_self_verify_authority():
+    provider = MockProvider([{
+        "agent": "civil-law",
+        "authorities": [{
+            "citation": "Fabricated verification",
+            "proposition": "A proposition.",
+            "verification_status": "VERIFIED",
+        }],
+        "narrative": "Borrador.",
+    }])
+
+    result = LegalAgent.load("civil-law", provider=provider).run("Pregunta ficticia")
+
+    assert result.quality.status == QualityStatus.DRAFT
+    assert result.authorities
+    assert all(
+        authority.verification_status == VerificationStatus.UNVERIFIED
+        for authority in result.authorities
+    )

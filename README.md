@@ -104,6 +104,8 @@ Authorities carry `VERIFIED`, `PARTIALLY_VERIFIED`, or `UNVERIFIED`. The runtime
 
 Agent source references resolve through `src/legal_agents_pr/sources/registry.yaml`. The runtime injects only version, provenance and coverage cautions into the system context; catalog membership never means that the source text or current law was verified.
 
+Stage 2 adds a strict [source verification contract](docs/source-verification-contract.md): verified authorities require retrieval evidence, a document hash, an exact pinpoint, matching quoted text, legal-effect status and an explicit currency date. Provider-generated JSON cannot self-certify any of those facts.
+
 ## Quality lifecycle
 
 ```text
