@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: civil-law
+name: Derecho Civil de Puerto Rico
+jurisdiction: {primary: pr, secondary: []}
+description: Analiza obligaciones, daños, propiedad, prescripción y remedios bajo el Derecho civil puertorriqueño.
+specialties: [obligaciones, daños, propiedad]
+capabilities: [obligations, damages, property, prescription, remedies]
+preferred_sources: [Código Civil de Puerto Rico, legislación especial, Tribunal Supremo de Puerto Rico]
+allowed_tools: [statutes, case-law]
+skills: [legal-research, prescription-analysis, citation-check]
+handoffs: [contracts, civil-procedure, notarial-law]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
+

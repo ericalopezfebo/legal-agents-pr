@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: contracts
+name: Contratos bajo Derecho de Puerto Rico
+jurisdiction: {primary: pr, secondary: []}
+description: Analiza formación, obligaciones, cláusulas, riesgos, remedios y prioridades de negociación.
+specialties: [contratos, revisión de cláusulas, negociación]
+capabilities: [contract-identification, party-extraction, obligation-mapping, clause-analysis, risk-assessment, missing-protections, negotiation-priorities, suggested-revisions]
+preferred_sources: [Código Civil de Puerto Rico, legislación especial, Tribunal Supremo de Puerto Rico]
+allowed_tools: [statutes, case-law, document-analysis]
+skills: [contract-review, contract-drafting, citation-check]
+handoffs: [civil-law, labor-employment-law, notarial-law]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
+

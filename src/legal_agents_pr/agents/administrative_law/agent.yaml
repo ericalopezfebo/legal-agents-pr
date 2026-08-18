@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: administrative-law
+name: Derecho Administrativo de Puerto Rico
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Analiza procedimientos, adjudicación y revisión judicial de agencias de Puerto Rico.
+specialties: [LPAU, agencias, revisión judicial]
+capabilities: [judicial-review, exhaustion-of-remedies, primary-jurisdiction, administrative-due-process, rulemaking, agency-adjudication, standard-of-review, administrative-record, finality]
+preferred_sources: [Constitución de Puerto Rico, legislación oficial, reglamentos oficiales, Tribunal Supremo de Puerto Rico]
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, citation-check]
+handoffs: [constitutional-law, appellate-law, labor-employment-law]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
+
