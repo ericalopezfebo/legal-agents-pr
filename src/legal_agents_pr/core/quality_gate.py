@@ -8,7 +8,7 @@ from legal_agents_pr.schemas.quality import CheckStatus, QualityCheck, QualityRe
 
 CHECK_NAMES = (
     "jurisdiction", "authority", "citations", "factual_support", "legal_issue_coverage",
-    "procedural_posture", "current_law", "assumptions", "hallucination_risk",
+    "procedural_posture", "current_law", "subsequent_treatment", "assumptions", "hallucination_risk",
     "confidentiality",
 )
 
@@ -60,10 +60,34 @@ class LegalQualityGate:
         )
         if require_verified_citations and verified and current_law_status != CheckStatus.VERIFIED:
             blockers.append(f"Current-law status was not checked through {as_of.isoformat()}.")
+        judicial = [
+            authority
+            for authority in verified
+            if any(
+                marker in authority.source_type.casefold()
+                for marker in ("case", "decision", "opinion", "judicial")
+            )
+        ]
+        treatment_checked = [
+            authority
+            for authority in judicial
+            if authority.treatment is not None and authority.treatment.confirmed
+        ]
+        treatment_status = (
+            CheckStatus.VERIFIED
+            if judicial and len(treatment_checked) == len(judicial)
+            else CheckStatus.NOT_APPLICABLE
+            if not judicial
+            else CheckStatus.UNVERIFIED
+        )
+        if require_verified_citations and judicial and treatment_status != CheckStatus.VERIFIED:
+            blockers.append("Subsequent treatment was not confirmed for judicial authorities.")
         for name in CHECK_NAMES[3:]:
             check_status = (
                 current_law_status
                 if name == "current_law"
+                else treatment_status
+                if name == "subsequent_treatment"
                 else CheckStatus.UNVERIFIED
                 if name == "factual_support"
                 else CheckStatus.PARTIALLY_VERIFIED

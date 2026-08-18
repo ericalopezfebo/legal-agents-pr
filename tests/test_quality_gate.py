@@ -4,6 +4,11 @@ import pytest
 
 from legal_agents_pr.core.quality_gate import LegalQualityGate
 from legal_agents_pr.schemas.authority import Authority, VerificationStatus
+from legal_agents_pr.schemas.judicial_treatment import (
+    JudicialTreatmentAssessment,
+    JudicialTreatmentStatus,
+    TreatmentBasis,
+)
 from legal_agents_pr.schemas.legal_output import LegalAnalysis
 from legal_agents_pr.schemas.quality import CheckStatus, QualityStatus
 from legal_agents_pr.schemas.source_evidence import (
@@ -101,3 +106,42 @@ def test_jurisdiction_is_not_automatically_verified():
     report = LegalQualityGate().evaluate(LegalAnalysis(agent="administrative-law"))
     jurisdiction = next(check for check in report.checks if check.name == "jurisdiction")
     assert jurisdiction.status == CheckStatus.PARTIALLY_VERIFIED
+
+
+def test_verified_judicial_authority_requires_confirmed_treatment():
+    authority = Authority(
+        citation="2024 TSPR 7",
+        proposition="The source supports this proposition.",
+        source_type="judicial-decision",
+        verification_status=VerificationStatus.VERIFIED,
+        evidence=evidence(checked_through=date(2026, 8, 18)),
+    )
+    report = LegalQualityGate().evaluate(
+        LegalAnalysis(agent="appellate-law", authorities=[authority]),
+        as_of_date=date(2026, 8, 18),
+    )
+    assert report.status == QualityStatus.DRAFT
+    assert any("Subsequent treatment" in issue for issue in report.blocking_issues)
+
+
+def test_confirmed_judicial_treatment_satisfies_treatment_check():
+    authority = Authority(
+        citation="2024 TSPR 7",
+        proposition="The source supports this proposition.",
+        source_type="judicial-decision",
+        verification_status=VerificationStatus.VERIFIED,
+        evidence=evidence(checked_through=date(2026, 8, 18)),
+        treatment=JudicialTreatmentAssessment(
+            status=JudicialTreatmentStatus.CITED,
+            confirmed=True,
+            basis=TreatmentBasis.HUMAN_REVIEWED_OFFICIAL_SOURCE,
+            evidence=evidence(),
+        ),
+    )
+    report = LegalQualityGate().evaluate(
+        LegalAnalysis(agent="appellate-law", authorities=[authority]),
+        as_of_date=date(2026, 8, 18),
+    )
+    treatment = next(check for check in report.checks if check.name == "subsequent_treatment")
+    assert treatment.status == CheckStatus.VERIFIED
+    assert report.status == QualityStatus.VALIDATED_DRAFT

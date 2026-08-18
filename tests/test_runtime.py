@@ -45,3 +45,24 @@ def test_provider_cannot_self_verify_authority():
         authority.verification_status == VerificationStatus.UNVERIFIED
         for authority in result.authorities
     )
+
+
+def test_provider_cannot_self_certify_judicial_treatment():
+    provider = MockProvider([{
+        "agent": "appellate-law",
+        "authorities": [{
+            "citation": "2024 TSPR 7",
+            "source_type": "judicial-decision",
+            "treatment": {
+                "status": "OVERRULED",
+                "confirmed": True,
+                "basis": "OFFICIAL_COURT_METADATA",
+            },
+        }],
+        "narrative": "Borrador.",
+    }])
+    result = LegalAgent.load("appellate-law", provider=provider).run("Pregunta ficticia")
+    treatment = result.authorities[0].treatment
+    assert treatment is not None
+    assert not treatment.confirmed
+    assert treatment.status.value == "UNKNOWN_UNVERIFIED"
