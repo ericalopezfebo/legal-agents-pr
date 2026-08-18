@@ -1,5 +1,10 @@
 # Source verification contract
 
+La extracción de texto de PDF oficiales se documenta en
+[official-pdf-text-verification.md](official-pdf-text-verification.md). Una coincidencia textual crea
+un punto de partida auditable, pero no determina por sí sola vigencia, efecto jurídico ni valor
+precedencial.
+
 The framework separates four questions that must not be collapsed into one status:
 
 1. **Identity:** what document was retrieved, from which URL and publisher?
