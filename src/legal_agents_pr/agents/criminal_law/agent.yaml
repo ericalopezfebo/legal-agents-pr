@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: criminal-law
+name: Derecho Penal de Puerto Rico
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Analiza imputaciones, defensas, prueba y exposición penal bajo Derecho de Puerto Rico.
+specialties: [delitos, defensas, procedimiento penal, penas]
+capabilities: [charge-analysis, elements, mens-rea, defenses, attempt, participation, concurrence, evidence-risk, sentencing]
+preferred_sources: [Código Penal vigente, legislación especial, Reglas de Procedimiento Criminal, Reglas de Evidencia, Tribunal Supremo de Puerto Rico]
+source_refs: [pr-evidence-rules-2009-updated-2020-08]
+allowed_tools: [statutes, court-rules, case-law, official-source-identifier]
+skills: [criminal-charge-analysis, sentencing-analysis, evidence-admissibility, legal-research, citation-check]
+handoffs: [evidence, constitutional-law, appellate-law, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

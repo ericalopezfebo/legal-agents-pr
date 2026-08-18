@@ -17,6 +17,10 @@ contestaciones, mociones, desestimación y sentencia sumaria; práctica apelativ
 presentación; revisión y redacción contractual; instrumentos notariales; conflictos y
 confidencialidad.
 
+Los módulos especializados adicionales cubren revisión administrativa, reclamaciones
+constitucionales, admisibilidad de evidencia, reclamaciones laborales, análisis de imputaciones
+penales y exposición a pena.
+
 Un skill describe una capacidad concreta. Un workflow coordina varios skills y conserva el estado
 del asunto. Añadir instrucciones a un skill no convierte sus resultados en autoridad verificada ni
 permite saltar el Quality Gate.

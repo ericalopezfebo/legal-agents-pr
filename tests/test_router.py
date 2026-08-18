@@ -20,3 +20,8 @@ def test_uncertain_route_requires_confirmation():
 def test_routes_professional_responsibility():
     route = DomainRouter().route("Posible conflicto de intereses y confidencialidad del cliente")
     assert route.primary_agent == "professional-responsibility"
+
+
+def test_routes_criminal_charge():
+    route = DomainRouter().route("Analiza los elementos del delito en esta acusación penal")
+    assert route.primary_agent == "criminal-law"
