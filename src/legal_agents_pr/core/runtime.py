@@ -6,6 +6,7 @@ from legal_agents_pr.providers.base import LLMProvider
 from legal_agents_pr.schemas.authority import VerificationStatus
 from legal_agents_pr.schemas.legal_output import LegalAnalysis
 from legal_agents_pr.schemas.provider import GenerationRequest, Message
+from legal_agents_pr.skills import SkillLoader
 
 from .config import RuntimeConfig
 from .loader import LoadedAgent
@@ -27,11 +28,23 @@ class AgentRuntime:
         provider: LLMProvider,
         config: RuntimeConfig | None = None,
         source_catalog: SourceCatalogLoader | None = None,
+        skill_loader: SkillLoader | None = None,
     ) -> None:
         self.provider = provider
         self.config = config or RuntimeConfig(provider=provider.name)
         self.quality_gate = LegalQualityGate()
         self.source_catalog = source_catalog or SourceCatalogLoader()
+        self.skill_loader = skill_loader or SkillLoader()
+
+    def skill_context(self, agent: LoadedAgent) -> str:
+        if not agent.definition.skills:
+            return "No repository-owned legal skills are assigned to this agent."
+        self.skill_loader.validate_references(agent.definition.skills)
+        sections = ["Repository-owned legal procedures:"]
+        for skill_name in agent.definition.skills:
+            skill = self.skill_loader.load(skill_name)
+            sections.append(f"\n## Skill: {skill.name}\n{skill.instructions}")
+        return "\n".join(sections)
 
     def source_context(self, agent: LoadedAgent) -> str:
         if not agent.definition.source_refs:
@@ -62,7 +75,8 @@ class AgentRuntime:
                 Message(
                     role="system",
                     content=(
-                        f"{agent.system_prompt}\n\n{self.source_context(agent)}\n\n"
+                        f"{agent.system_prompt}\n\n{self.skill_context(agent)}\n\n"
+                        f"{self.source_context(agent)}\n\n"
                         f"{OUTPUT_INSTRUCTION}"
                     ),
                 ),
