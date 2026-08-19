@@ -38,4 +38,9 @@ class AgentLoader:
         if not manifest.is_file() or not system.is_file():
             raise AgentNotFoundError(f"Unknown agent: {agent_id}")
         definition = AgentDefinition.model_validate(yaml.safe_load(manifest.read_text(encoding="utf-8")))
-        return LoadedAgent(definition, system.read_text(encoding="utf-8").strip())
+        shared_system = self.root / "_shared" / "system.md"
+        prompt_parts: list[str] = []
+        if shared_system.is_file():
+            prompt_parts.append(shared_system.read_text(encoding="utf-8").strip())
+        prompt_parts.append(system.read_text(encoding="utf-8").strip())
+        return LoadedAgent(definition, "\n\n".join(prompt_parts))

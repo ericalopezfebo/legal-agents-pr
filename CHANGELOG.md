@@ -4,6 +4,10 @@ All notable changes will be documented here. This project follows semantic versi
 
 ## 0.2.0 - Unreleased
 
+- Add a shared legal operating policy automatically injected into every specialist agent.
+- Strengthen administrative-law and civil-procedure issue spotting and source-date safeguards.
+- Add legal-research and filing-readiness procedures to the civil-procedure agent.
+- Correct the documented specialist-agent count to eleven.
 - Add source retrieval, pinpoint, legal-effect and currency evidence contracts.
 - Require matching evidence for verified authorities.
 - Prevent model-provider output from self-certifying citation verification.
@@ -14,7 +18,7 @@ All notable changes will be documented here. This project follows semantic versi
 ## 0.1.0 - 2026-08-18
 
 - Initial provider-agnostic runtime.
-- Ten Puerto Rico specialist agent definitions.
+- Eleven Puerto Rico specialist agent definitions.
 - Deterministic router and bounded handoffs.
 - Source, citation and legal quality policies.
 - Versioned source catalog for selected Puerto Rico statutes and court rules.
