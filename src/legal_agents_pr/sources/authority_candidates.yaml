@@ -1,11 +1,10 @@
 schema_version: '1.0'
-provenance: Citation-only extraction from user-supplied legal study materials, including focused administrative-law
-  metadata and OCR-derived civil-procedure citations.
+provenance: Citation-only extraction from user-supplied legal study materials, including structured administrative-law
+  and civil-procedure authority tables.
 copyright_scope: Factual citation metadata only; no source PDFs, quotations, commentary, summaries, outlines,
   explanations or author analysis are included.
 verification_notice: Every record is a research lead and remains UNVERIFIED until matched against an approved
-  official source and reviewed by an attorney; OCR-derived civil-procedure citations may contain transcription
-  errors.
+  official source and reviewed by an attorney; the structured tables may still contain source errors.
 authorities:
 - citation: 100 DPR 1009 (1971)
   authority_type: tspr-decision
@@ -102,12 +101,6 @@ authorities:
   year: 1975
   topics:
   - Obligaciones
-  verification_status: UNVERIFIED
-- citation: 103 DPR 466 (1975)
-  authority_type: tspr-decision
-  year: 1975
-  topics:
-  - Procedimiento civil
   verification_status: UNVERIFIED
 - citation: 103 DPR 509 (1975)
   authority_type: tspr-decision
@@ -352,12 +345,6 @@ authorities:
   - Obligaciones
   verification_status: UNVERIFIED
 - citation: 108 DPR 680 (1979)
-  authority_type: tspr-decision
-  year: 1979
-  topics:
-  - Procedimiento civil
-  verification_status: UNVERIFIED
-- citation: 108 DPR 680, 689 (1979)
   authority_type: tspr-decision
   year: 1979
   topics:
@@ -775,12 +762,6 @@ authorities:
   topics:
   - Procedimiento civil
   verification_status: UNVERIFIED
-- citation: 115 DPR 491 (1984)
-  authority_type: tspr-decision
-  year: 1984
-  topics:
-  - Procedimiento civil
-  verification_status: UNVERIFIED
 - citation: 115 DPR 553 (1984)
   authority_type: tspr-decision
   year: 1984
@@ -899,12 +880,6 @@ authorities:
 - citation: 116 DPR 762 (1984)
   authority_type: tspr-decision
   year: 1984
-  topics:
-  - Procedimiento civil
-  verification_status: UNVERIFIED
-- citation: 116 DPR 762 (1985)
-  authority_type: tspr-decision
-  year: 1985
   topics:
   - Procedimiento civil
   verification_status: UNVERIFIED
@@ -1322,12 +1297,6 @@ authorities:
   topics:
   - Administrativo
   verification_status: UNVERIFIED
-- citation: 126 DPR 220 (1990)
-  authority_type: tspr-decision
-  year: 1990
-  topics:
-  - Procedimiento civil
-  verification_status: UNVERIFIED
 - citation: 126 DPR 251 (1990)
   authority_type: tspr-decision
   year: 1990
@@ -1411,6 +1380,12 @@ authorities:
   year: 1991
   topics:
   - Constitucional
+  verification_status: UNVERIFIED
+- citation: 129 DPR 1042, 1050-1051 (1992)
+  authority_type: tspr-decision
+  year: 1992
+  topics:
+  - Procedimiento civil
   verification_status: UNVERIFIED
 - citation: 129 DPR 521 (1991)
   authority_type: tspr-decision
@@ -2130,12 +2105,6 @@ authorities:
   topics:
   - Obligaciones
   verification_status: UNVERIFIED
-- citation: 144 DPR 563 (1997)
-  authority_type: tspr-decision
-  year: 1997
-  topics:
-  - Procedimiento civil
-  verification_status: UNVERIFIED
 - citation: 144 DPR 659 (1997)
   authority_type: tspr-decision
   year: 1997
@@ -2512,7 +2481,6 @@ authorities:
   year: 2002
   topics:
   - Obligaciones
-  - Procedimiento civil
   verification_status: UNVERIFIED
 - citation: 156 DPR 352 (2002)
   authority_type: tspr-decision
@@ -3493,6 +3461,12 @@ authorities:
   topics:
   - Procedimiento civil
   verification_status: UNVERIFIED
+- citation: 174 DPR 793 (2008)
+  authority_type: tspr-decision
+  year: 2008
+  topics:
+  - Procedimiento civil
+  verification_status: UNVERIFIED
 - citation: 174 DPR 813 (2008)
   authority_type: tspr-decision
   year: 2008
@@ -4224,12 +4198,6 @@ authorities:
   - Procedimiento civil
   verification_status: UNVERIFIED
 - citation: 2010 TSPR 65
-  authority_type: tspr-decision
-  year: 2010
-  topics:
-  - Procedimiento civil
-  verification_status: UNVERIFIED
-- citation: 2010 TSPR 96
   authority_type: tspr-decision
   year: 2010
   topics:
@@ -6074,6 +6042,12 @@ authorities:
   topics:
   - Daños
   verification_status: UNVERIFIED
+- citation: 2023 TSPR 65
+  authority_type: tspr-decision
+  year: 2023
+  topics:
+  - Procedimiento civil
+  verification_status: UNVERIFIED
 - citation: 2023 TSPR 69
   authority_type: tspr-decision
   year: 2023
@@ -6553,6 +6527,18 @@ authorities:
   topics:
   - Derechos reales
   verification_status: UNVERIFIED
+- citation: 74 DPR 862, 869-70 (1953)
+  authority_type: tspr-decision
+  year: 1953
+  topics:
+  - Procedimiento civil
+  verification_status: UNVERIFIED
+- citation: 75 D.P.R. 777, 782 (1954)
+  authority_type: tspr-decision
+  year: 1954
+  topics:
+  - Procedimiento civil
+  verification_status: UNVERIFIED
 - citation: 75 DPR 712 (1953)
   authority_type: tspr-decision
   year: 1953
@@ -6738,6 +6724,12 @@ authorities:
   year: 1968
   topics:
   - Daños
+  verification_status: UNVERIFIED
+- citation: 95 U.S. 714 (1878)
+  authority_type: federal-decision
+  year: 1878
+  topics:
+  - Procedimiento civil
   verification_status: UNVERIFIED
 - citation: 96 DPR 796 (1968)
   authority_type: tspr-decision
@@ -7171,4 +7163,10 @@ authorities:
   year: null
   topics:
   - Administrativo
+  verification_status: UNVERIFIED
+- citation: Reglas de Procedimiento Civil de 2009
+  authority_type: regulation
+  year: 2009
+  topics:
+  - Procedimiento civil
   verification_status: UNVERIFIED
