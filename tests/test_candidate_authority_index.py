@@ -27,8 +27,11 @@ def test_candidate_index_searches_by_topic_and_citation() -> None:
 
 def test_candidate_index_exposes_focused_admin_and_civil_topics() -> None:
     loader = CandidateAuthorityIndexLoader()
+    index = loader.load()
     administrative = loader.search(topic="administrativo", limit=100)
     civil_procedure = loader.search(topic="procedimiento civil", limit=100)
+    assert sum("Administrativo" in item.topics for item in index.authorities) == 238
+    assert sum("Procedimiento civil" in item.topics for item in index.authorities) == 306
     assert len(administrative) == 100
     assert len(civil_procedure) == 100
     assert all("Administrativo" in item.topics for item in administrative)
