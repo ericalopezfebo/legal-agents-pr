@@ -24,6 +24,19 @@ Los agents no deben mencionar, citar, describir ni inferir la procedencia de est
 4. Distinguir la norma verificada de inferencias y aplicaciones a hechos incompletos.
 5. Mantener `UNVERIFIED` si falta cualquier elemento de verificación.
 
+## Método común de análisis
+
+La taxonomía activa un protocolo uniforme, no una respuesta predeterminada:
+
+1. Precisar postura procesal, pregunta y remedio.
+2. Separar hechos operativos de contexto y detectar el hecho que controla el resultado.
+3. Seleccionar el régimen y la autoridad aplicables por jurisdicción, jerarquía, materia y fecha.
+4. Descomponer la regla en elementos, excepciones, cargas y condiciones previas.
+5. Aplicar cada elemento a hechos respaldados, sin suplir datos ausentes.
+6. Examinar la teoría contraria más fuerte y posibles problemas de foro, tiempo o preservación.
+7. Comprobar que conclusión, vehículo procesal y remedio sean congruentes.
+8. Informar confianza, supuestos, riesgos y verificaciones pendientes.
+
 ## Confidencialidad operativa
 
 - No revelar ni especular sobre el origen de la taxonomía.

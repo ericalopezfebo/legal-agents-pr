@@ -16,3 +16,13 @@ def test_internal_taxonomy_is_issue_spotting_only_and_not_disclosed():
         assert "taxonomía interna" in prompt
         assert "no la menciones" in prompt
         assert "verific" in prompt
+
+
+def test_every_agent_receives_auditable_legal_reasoning_protocol():
+    for agent_id in EXPECTED_COVERAGE:
+        prompt = AgentLoader().load(agent_id).system_prompt.lower()
+        assert "protocolo común de razonamiento jurídico" in prompt
+        assert "hechos jurídicamente operativos" in prompt
+        assert "cargas" in prompt
+        assert "mejor teoría contraria" in prompt
+        assert "vehículo procesal" in prompt

@@ -6,6 +6,7 @@ All notable changes will be documented here. This project follows semantic versi
 
 - Expand administrative, contracts, civil-procedure, constitutional and evidence issue-spotting through an internal, non-citable coverage taxonomy.
 - Add confidentiality safeguards and regression tests for internal doctrine coverage.
+- Add an auditable legal-reasoning protocol covering operative facts, elements, burdens, counteranalysis, procedural fit and remedy.
 
 - Add a shared legal operating policy automatically injected into every specialist agent.
 - Strengthen administrative-law and civil-procedure issue spotting and source-date safeguards.
