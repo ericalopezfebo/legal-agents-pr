@@ -16,4 +16,3 @@ def test_study_material_topics_are_issue_spotting_only():
         assert all(topic in prompt for topic in topics)
         assert "material de estudio" in prompt
         assert "verific" in prompt
-
