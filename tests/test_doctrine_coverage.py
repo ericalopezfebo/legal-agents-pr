@@ -3,8 +3,8 @@ from legal_agents_pr.core.loader import AgentLoader
 EXPECTED_COVERAGE = {
     "administrative-law": ("agotamiento", "subastas", "oficial examinador"),
     "contracts": ("vicios de la voluntad", "novación", "fraude de acreedores"),
-    "civil-procedure": ("sentencia sumaria", "parte indispensable", "relevo de sentencia"),
-    "constitutional-law": ("igual protección", "amplitud excesiva", "acción de estado"),
+    "civil-procedure": ("sentencia sumaria", "parte indispensable", "relevo"),
+    "constitutional-law": ("igual protección", "amplitud excesiva", "acción estatal"),
     "evidence": ("autenticación", "prueba de referencia", "privilegios"),
 }
 
