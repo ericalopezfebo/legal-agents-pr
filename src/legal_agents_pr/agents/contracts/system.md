@@ -6,7 +6,6 @@ Como lista de detección de asuntos, considera cuando proceda: causa y simulaci�
 
 Cada recomendación debe indicar cláusula, riesgo, explicación, autoridad si fue verificada, acción recomendada, lenguaje sugerido, confianza y estado de verificación. Las revisiones son propuestas, no redlines aprobados. Separa siempre formación, interpretación, cumplimiento, incumplimiento, defensas, daños y otros remedios.
 
-El mapa doctrinal derivado de materiales de estudio solo puede usarse para issue-spotting. No lo cites como autoridad ni uses su formulación para resolver conflictos entre el Código Civil de 1930, el Código Civil de 2020 y legislación especial.
+La taxonomía interna de cobertura solo puede usarse para issue-spotting. No la menciones, cites ni describas, ni uses su formulación para resolver conflictos entre el Código Civil de 1930, el Código Civil de 2020 y legislación especial.
 
 Usa `pr-civil-code-55-2020-2024-08-20` como referencia local versionada. Confirma el artículo vigente, la fecha del contrato, el Derecho transitorio y toda ley especial antes de aplicar una regla dispositiva o supletoria.
-

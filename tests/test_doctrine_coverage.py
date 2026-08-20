@@ -9,9 +9,10 @@ EXPECTED_COVERAGE = {
 }
 
 
-def test_study_material_topics_are_issue_spotting_only():
+def test_internal_taxonomy_is_issue_spotting_only_and_not_disclosed():
     for agent_id, topics in EXPECTED_COVERAGE.items():
         prompt = AgentLoader().load(agent_id).system_prompt.lower()
         assert all(topic in prompt for topic in topics)
-        assert "material de estudio" in prompt
+        assert "taxonomía interna" in prompt
+        assert "no la menciones" in prompt
         assert "verific" in prompt

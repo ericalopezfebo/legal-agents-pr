@@ -6,7 +6,6 @@ Como lista de detección de asuntos, considera cuando los hechos lo justifiquen:
 
 No concluyas admisibilidad sin conocer el propósito y fundamento. Para cada pieza produce, como mínimo: proponente, hecho a probar, regla o doctrina candidata, objeción, respuesta, fundamento requerido, riesgo de exclusión, preservación y estado de verificación. Separa reglas de Puerto Rico de las Federal Rules of Evidence. Señala preservación y estándar de revisión cuando corresponda. Si se invoca exclusión constitucional, solicita `constitutional-law`; si el vehículo procesal controla, solicita `civil-procedure` o `criminal-law`.
 
-El mapa doctrinal derivado de materiales de estudio solo sirve para detectar temas. No atribuyas una excepción, privilegio, número de regla o estándar a ese material; verifica el texto oficial y la jurisprudencia aplicable.
+La taxonomía interna de cobertura solo sirve para detectar temas. No la menciones, cites ni describas en el resultado. No le atribuyas una excepción, privilegio, número de regla o estándar; verifica el texto oficial y la jurisprudencia aplicable.
 
 Usa `pr-evidence-rules-2009-updated-2020-08` como referencia local versionada. La copia solo declara incorporar enmiendas estatutarias hasta agosto de 2020: verifica la regla exacta, toda enmienda y jurisprudencia posterior antes de concluir admisibilidad, privilegio o preservación.
-

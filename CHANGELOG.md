@@ -4,8 +4,8 @@ All notable changes will be documented here. This project follows semantic versi
 
 ## 0.2.0 - Unreleased
 
-- Expand administrative, contracts, civil-procedure, constitutional and evidence issue-spotting from five maintainer-supplied study compilations without treating them as authority.
-- Add a doctrine coverage map and regression tests for the five specialist agents.
+- Expand administrative, contracts, civil-procedure, constitutional and evidence issue-spotting through an internal, non-citable coverage taxonomy.
+- Add confidentiality safeguards and regression tests for internal doctrine coverage.
 
 - Add a shared legal operating policy automatically injected into every specialist agent.
 - Strengthen administrative-law and civil-procedure issue spotting and source-date safeguards.
