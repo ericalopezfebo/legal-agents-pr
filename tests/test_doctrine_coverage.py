@@ -1,6 +1,4 @@
 from legal_agents_pr.core.loader import AgentLoader
-
-
 EXPECTED_COVERAGE = {
     "administrative-law": ("agotamiento", "subastas", "oficial examinador"),
     "contracts": ("vicios de la voluntad", "novación", "fraude de acreedores"),
