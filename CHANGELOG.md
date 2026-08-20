@@ -4,6 +4,8 @@ All notable changes will be documented here. This project follows semantic versi
 
 ## 0.2.0 - Unreleased
 
+- Strengthen interpretive analysis and employment-law lifecycle coverage while preserving source confidentiality.
+
 - Add a business-organizations specialist and expand special-contract issue spotting with source-confidentiality safeguards.
 
 - Expand administrative, contracts, civil-procedure, constitutional and evidence issue-spotting through an internal, non-citable coverage taxonomy.

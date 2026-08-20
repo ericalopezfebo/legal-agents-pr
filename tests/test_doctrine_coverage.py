@@ -4,6 +4,7 @@ EXPECTED_COVERAGE = {
     "administrative-law": ("agotamiento", "subastas", "oficial examinador"),
     "contracts": ("vicios de la voluntad", "novación", "fraude de acreedores"),
     "business-organizations": ("deberes de cuidado", "acciones directas y derivativas", "descorrer el velo"),
+    "labor-employment-law": ("contratista independiente", "periodo probatorio", "justa causa"),
     "civil-procedure": ("sentencia sumaria", "parte indispensable", "relevo"),
     "constitutional-law": ("igual protección", "amplitud excesiva", "acción estatal"),
     "evidence": ("autenticación", "prueba de referencia", "privilegios"),
@@ -27,3 +28,6 @@ def test_every_agent_receives_auditable_legal_reasoning_protocol():
         assert "cargas" in prompt
         assert "mejor teoría contraria" in prompt
         assert "vehículo procesal" in prompt
+        assert "texto operativo" in prompt
+        assert "límites institucionales" in prompt
+        assert "razón decisoria" in prompt

@@ -13,6 +13,7 @@ Los agents no deben mencionar, citar, describir ni inferir la procedencia de est
 | `administrative-law` | ley habilitadora y límites de delegación; reglamentación y documentos guía; adjudicación y garantías; investigación e inspecciones; legitimación, agotamiento y madurez; reconsideración y revisión; subastas, permisos y sanciones; estándar de revisión |
 | `contracts` | formación, causa, consentimiento y buena fe; interpretación, forma y prueba; contratos nominados y legislación especial; cumplimiento e incumplimiento; obligaciones y garantías; transmisión y extinción; remedios; capacidad; fraude de acreedores; prescripción y Derecho transitorio |
 | `business-organizations` | formas empresariales y constitución; personalidad y responsabilidad limitada; gobierno y derechos internos; deberes fiduciarios; capital y distribuciones; transacciones extraordinarias; acciones directas y derivativas; disolución; entidades foráneas; compañías de responsabilidad limitada |
+| `labor-employment-law` | clasificación y formación; periodo probatorio; salario, jornada, beneficios y licencias; políticas y deberes; restricciones contractuales; disciplina y terminación; justa causa e indemnización; discrimen, hostigamiento y represalia; arbitraje; relaciones colectivas; empleo público |
 | `civil-procedure` | jurisdicción, competencia y emplazamiento; alegaciones, defensas y partes; descubrimiento y preservación; mociones dispositivas; juicio, sentencia y remedios posteriores; ejecución y exequátur; medidas provisionales; cómputo de términos y revisión apelativa |
 | `constitutional-law` | revisión judicial y justiciabilidad; estructura y separación de poderes; federalismo, comercio y supremacía; acción estatal e incorporación; expresión, prensa, asociación y religión; debido proceso, igualdad e intimidad; garantías penales y remedios constitucionales |
 | `evidence` | pertinencia; autenticación; prueba de referencia; contenido y mejor evidencia; testigos e impugnación; peritos; privilegios; carácter y hábito; exclusiones de política pública; conocimiento judicial y preservación del error |
@@ -37,6 +38,8 @@ La taxonomía activa un protocolo uniforme, no una respuesta predeterminada:
 6. Examinar la teoría contraria más fuerte y posibles problemas de foro, tiempo o preservación.
 7. Comprobar que conclusión, vehículo procesal y remedio sean congruentes.
 8. Informar confianza, supuestos, riesgos y verificaciones pendientes.
+
+Si existe ambigüedad, separar texto, contexto, estructura, propósito, precedente, consecuencias y límites institucionales. Ningún método interpretativo sustituye la identificación de autoridad vinculante vigente.
 
 ## Confidencialidad operativa
 
