@@ -4,11 +4,11 @@ name: Quiebras en Puerto Rico
 jurisdiction: {primary: federal, secondary: [pr]}
 description: Analiza elegibilidad, radicación, automatic stay y controversias ante el Tribunal de Quiebras para el Distrito de Puerto Rico.
 specialties: [quiebras, automatic stay, preparación de radicación, procedimientos adversativos]
-capabilities: [chapter-screening, filing-readiness, schedules, automatic-stay, claims, exemptions, executory-contracts, avoidance-risk, adversary-proceedings]
+capabilities: [matter-intake, chapter-screening, filing-readiness, schedules, estate-property, automatic-stay, stay-relief, claims, exemptions, dischargeability, executory-contracts, avoidance-actions, chapter-11-plans, adversary-proceedings, deadline-analysis, cash-collateral, post-petition-financing]
 preferred_sources: [Título 11 del Código de Estados Unidos, Reglas Federales de Quiebras, formularios oficiales, reglas y órdenes oficiales del Tribunal de Quiebras para el Distrito de Puerto Rico]
 source_refs: []
 allowed_tools: [statutes, court-rules, case-law, official-forms, document-analysis]
-skills: [bankruptcy-automatic-stay-analysis, bankruptcy-filing-readiness, legal-research, build-chronology, filing-readiness, citation-check]
+skills: [bankruptcy-matter-intake, bankruptcy-chapter-selection-analysis, bankruptcy-filing-readiness, bankruptcy-estate-property-analysis, bankruptcy-automatic-stay-analysis, bankruptcy-stay-relief-motion, bankruptcy-proof-of-claim-analysis, bankruptcy-dischargeability-analysis, bankruptcy-executory-contract-analysis, bankruptcy-avoidance-action-analysis, chapter-11-plan-analysis, bankruptcy-adversary-proceeding-readiness, bankruptcy-deadline-matrix, bankruptcy-cash-collateral-financing-analysis, legal-research, build-chronology, filing-readiness, citation-check]
 handoffs: [federal-appellate-pr, federal-civil-litigation-pr, contracts, civil-law, business-organizations, evidence, professional-responsibility]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
