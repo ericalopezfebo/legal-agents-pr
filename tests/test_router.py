@@ -32,6 +32,6 @@ def test_routes_business_organizations():
     assert route.primary_agent == "business-organizations"
 
 
-def test_routes_trademark_dispute():
-    route = DomainRouter().route("Evalúa el riesgo de confusión y dilución de esta marca")
+def test_routes_copyright_question():
+    route = DomainRouter().route("Analiza fair use y derecho de autor bajo la DMCA")
     assert route.primary_agent == "intellectual-property-law"

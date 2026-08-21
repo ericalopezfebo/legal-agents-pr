@@ -5,7 +5,7 @@ EXPECTED_COVERAGE = {
     "contracts": ("vicios de la voluntad", "novación", "fraude de acreedores"),
     "business-organizations": ("deberes de cuidado", "acciones directas y derivativas", "descorrer el velo"),
     "labor-employment-law": ("contratista independiente", "periodo probatorio", "justa causa"),
-    "intellectual-property-law": ("riesgo de confusión", "presentación comercial", "control de calidad"),
+    "intellectual-property-law": ("riesgo de confusión", "presentación comercial", "control de calidad", "fair use", "trabajo por encargo", "puertos seguros"),
     "civil-procedure": ("sentencia sumaria", "parte indispensable", "relevo"),
     "constitutional-law": ("igual protección", "amplitud excesiva", "acción estatal"),
     "evidence": ("autenticación", "prueba de referencia", "privilegios"),
