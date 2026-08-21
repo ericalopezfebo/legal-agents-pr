@@ -25,6 +25,7 @@ ROUTING_RULES: dict[str, tuple[str, ...]] = {
     "civil-procedure": ("demanda", "emplazamiento", "descubrimiento", "sentencia sumaria", "regla 10.2"),
     "business-organizations": ("corporación", "accionista", "junta de directores", "deber fiduciario", "acción derivativa", "compañía de responsabilidad limitada", "fusión"),
     "contracts": ("contrato", "cláusula", "incumplimiento", "indemnización", "no competencia"),
+    "intellectual-property-law": ("marca", "trademark", "competencia desleal", "riesgo de confusión", "dilución", "nombre de dominio", "licencia de marca"),
     "evidence": ("evidencia", "prueba", "hearsay", "referencia", "autenticación", "privilegio"),
     "appellate-law": ("apelación", "certiorari", "reconsideración", "error", "estándar de revisión"),
     "professional-responsibility": ("ética", "conducta profesional", "conflicto de intereses", "confidencialidad", "competencia tecnológica"),

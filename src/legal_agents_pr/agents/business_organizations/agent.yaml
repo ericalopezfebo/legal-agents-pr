@@ -9,6 +9,6 @@ preferred_sources: [legislación empresarial oficial vigente de Puerto Rico, reg
 source_refs: []
 allowed_tools: [statutes, case-law, document-analysis]
 skills: [legal-research, analyze-statute, contract-review, citation-check]
-handoffs: [contracts, civil-procedure, constitutional-law, labor-employment-law, notarial-law]
+handoffs: [contracts, intellectual-property-law, civil-procedure, constitutional-law, labor-employment-law, notarial-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

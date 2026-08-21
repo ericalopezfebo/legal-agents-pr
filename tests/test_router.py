@@ -30,3 +30,8 @@ def test_routes_criminal_charge():
 def test_routes_business_organizations():
     route = DomainRouter().route("¿Qué deber fiduciario tiene la junta de directores de esta corporación?")
     assert route.primary_agent == "business-organizations"
+
+
+def test_routes_trademark_dispute():
+    route = DomainRouter().route("Evalúa el riesgo de confusión y dilución de esta marca")
+    assert route.primary_agent == "intellectual-property-law"
