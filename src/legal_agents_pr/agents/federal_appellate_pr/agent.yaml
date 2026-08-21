@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: federal-appellate-pr
+name: Apelaciones Federales desde Puerto Rico
+jurisdiction: {primary: federal, secondary: [pr]}
+description: Analiza apelabilidad, términos, récord y briefs ante el Tribunal de Apelaciones para el Primer Circuito.
+specialties: [apelaciones federales, Primer Circuito, briefs, récord]
+capabilities: [appellate-jurisdiction, finality, deadline-analysis, issue-selection, standards-of-review, record-designation, brief-drafting, stays, oral-argument]
+preferred_sources: [Código de Estados Unidos, Reglas Federales de Procedimiento Apelativo, Rulebook e instrucciones oficiales del Primer Circuito, precedentes vinculantes]
+source_refs: []
+allowed_tools: [statutes, court-rules, case-law, document-analysis]
+skills: [first-circuit-appeal-readiness, federal-appellate-brief-drafting, appellate-issue-preservation, legal-research, check-proposition-support, citation-check]
+handoffs: [federal-civil-litigation-pr, federal-criminal-litigation-pr, bankruptcy-pr, evidence, constitutional-law, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
