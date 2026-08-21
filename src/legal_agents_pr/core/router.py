@@ -17,6 +17,7 @@ class RouteResult(BaseModel):
 
 
 ROUTING_RULES: dict[str, tuple[str, ...]] = {
+    "privacy-cybersecurity-law": ("privacidad", "ciberseguridad", "violación de datos", "brecha de datos", "incidente de seguridad", "datos personales", "retención de datos", "byod"),
     "administrative-law": ("agencia", "administrativ", "revisión judicial", "agotamiento", "lpau"),
     "labor-employment-law": ("empleo", "despido", "discriminación", "represalia", "salario", "sindicato"),
     "constitutional-law": ("constitucional", "debido proceso", "registro", "incautación", "libertad de expresión"),

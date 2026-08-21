@@ -8,7 +8,7 @@ capabilities: [wrongful-termination, wage-hour, discrimination, retaliation, har
 preferred_sources: [legislación oficial, reglamentos oficiales, Tribunal Supremo de Puerto Rico, fuentes federales aplicables]
 source_refs: [pr-labor-reform-4-2017-2024-04-15, pr-public-employment-8-2017-2026-03-18, pr-antidiscrimination-100-1959-2024-08-05]
 allowed_tools: [statutes, regulations, case-law]
-skills: [labor-claim-analysis, legal-research, contract-review, citation-check]
+skills: [labor-claim-analysis, worker-classification, employment-agreement, severance-agreement, employee-handbook, workplace-accommodation, retaliation-claim-analysis, legal-research, contract-review, citation-check]
 handoffs: [administrative-law, contracts, constitutional-law, civil-procedure]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

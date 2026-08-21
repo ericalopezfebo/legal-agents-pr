@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: privacy-cybersecurity-law
+name: Privacidad y Ciberseguridad de Puerto Rico
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Analiza privacidad, gobernanza de datos, incidentes de seguridad y obligaciones de notificación bajo los regímenes aplicables.
+specialties: [privacidad, protección de datos, ciberseguridad, respuesta a incidentes]
+capabilities: [privacy-scoping, data-mapping, breach-response, notification-analysis, incident-response, retention-governance, byod-governance, vendor-risk, evidence-preservation]
+preferred_sources: [legislación oficial de Puerto Rico, reglamentos oficiales, Código de Estados Unidos, reguladores federales competentes, decisiones vinculantes]
+source_refs: []
+allowed_tools: [statutes, regulations, case-law, document-analysis]
+skills: [privacy-law-applicability, data-breach-response, incident-response-plan, data-retention-policy, byod-policy, legal-research, check-proposition-support, citation-check]
+handoffs: [administrative-law, labor-employment-law, contracts, civil-procedure, evidence, intellectual-property-law, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
