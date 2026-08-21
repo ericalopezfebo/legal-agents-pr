@@ -23,11 +23,13 @@ ROUTING_RULES: dict[str, tuple[str, ...]] = {
     "notarial-law": ("notarial", "escritura pública", "notario", "protocolo", "comparecencia"),
     "civil-law": ("daños", "obligación", "propiedad", "prescripción", "responsabilidad civil"),
     "civil-procedure": ("demanda", "emplazamiento", "descubrimiento", "sentencia sumaria", "regla 10.2"),
+    "business-organizations": ("corporación", "accionista", "junta de directores", "deber fiduciario", "acción derivativa", "compañía de responsabilidad limitada", "fusión"),
     "contracts": ("contrato", "cláusula", "incumplimiento", "indemnización", "no competencia"),
     "evidence": ("evidencia", "prueba", "hearsay", "referencia", "autenticación", "privilegio"),
     "appellate-law": ("apelación", "certiorari", "reconsideración", "error", "estándar de revisión"),
     "professional-responsibility": ("ética", "conducta profesional", "conflicto de intereses", "confidencialidad", "competencia tecnológica"),
     "criminal-law": ("delito", "penal", "acusación", "denuncia", "sentencia criminal", "ministerio público"),
+    "intellectual-property-law": ("marca", "trademark", "competencia desleal", "riesgo de confusión", "dilución", "nombre de dominio", "licencia de marca", "copyright", "derecho de autor", "fair use", "uso justo", "dmca"),
 }
 
 

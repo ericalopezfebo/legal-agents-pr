@@ -25,3 +25,13 @@ def test_routes_professional_responsibility():
 def test_routes_criminal_charge():
     route = DomainRouter().route("Analiza los elementos del delito en esta acusación penal")
     assert route.primary_agent == "criminal-law"
+
+
+def test_routes_business_organizations():
+    route = DomainRouter().route("¿Qué deber fiduciario tiene la junta de directores de esta corporación?")
+    assert route.primary_agent == "business-organizations"
+
+
+def test_routes_copyright_question():
+    route = DomainRouter().route("Analiza fair use y derecho de autor bajo la DMCA")
+    assert route.primary_agent == "intellectual-property-law"

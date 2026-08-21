@@ -9,6 +9,6 @@ preferred_sources: [Código Civil de Puerto Rico, legislación especial, Tribuna
 source_refs: [pr-civil-code-55-2020-2024-08-20]
 allowed_tools: [statutes, case-law]
 skills: [legal-research, analyze-statute, build-chronology, check-proposition-support, citation-check]
-handoffs: [contracts, civil-procedure, notarial-law]
+handoffs: [contracts, business-organizations, civil-procedure, notarial-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

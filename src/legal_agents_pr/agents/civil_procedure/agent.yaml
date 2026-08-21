@@ -2,13 +2,13 @@ schema_version: "1.0"
 id: civil-procedure
 name: Procedimiento Civil de Puerto Rico
 jurisdiction: {primary: pr, secondary: []}
-description: Analiza jurisdicción, alegaciones, mociones, descubrimiento, términos y preservación de errores.
+description: Analiza jurisdicción, alegaciones, mociones, descubrimiento, términos, informes previos a juicio y preservación de errores.
 specialties: [litigación civil, reglas procesales, términos]
-capabilities: [jurisdiction, service, pleadings, motions, discovery, summary-judgment, reconsideration, deadlines, appeals-preservation]
+capabilities: [jurisdiction, service, pleadings, motions, discovery, summary-judgment, pretrial-reports, hearing-plans, reconsideration, deadlines, appeals-preservation]
 preferred_sources: [Reglas de Procedimiento Civil, legislación oficial, Tribunal Supremo de Puerto Rico]
 source_refs: [pr-civil-procedure-rules-2023-03]
 allowed_tools: [court-rules, statutes, case-law]
-skills: [complaint-drafting, answer-drafting, motion-drafting, motion-dismiss, summary-judgment, civil-deadlines, build-chronology, check-proposition-support, legal-research, filing-readiness, adversarial-legal-qc, citation-check]
+skills: [complaint-drafting, answer-drafting, motion-drafting, motion-dismiss, summary-judgment, pretrial-report-drafting, legal-document-sanitization, civil-deadlines, build-chronology, check-proposition-support, legal-research, filing-readiness, adversarial-legal-qc, citation-check]
 handoffs: [civil-law, evidence, appellate-law]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}

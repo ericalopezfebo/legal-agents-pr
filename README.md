@@ -11,7 +11,7 @@ Provider-agnostic, open-source legal AI agents for Puerto Rico. The repository s
 
 ## What it is
 
-- Eleven versioned specialist agents for Puerto Rico law.
+- Thirteen versioned specialist agents for Puerto Rico law.
 - A small Python runtime with provider, tool, skill, routing, handoff and quality interfaces.
 - Structured Pydantic outputs with explicit citation-verification states.
 - A CLI and Python API that work offline with `MockProvider`.
@@ -96,6 +96,8 @@ print(result.quality.status)
 - `civil-law`
 - `civil-procedure`
 - `contracts`
+- `business-organizations`
+- `intellectual-property-law`
 - `evidence`
 - `appellate-law`
 - `professional-responsibility`
@@ -104,8 +106,7 @@ print(result.quality.status)
 ## Citation safety
 
 `legal-agents-pr authorities` searches a citation-only candidate index by topic or citation. The
-index contains factual citation metadata extracted from user-supplied study materials, not the
-materials or their doctrinal content. Every result is `UNVERIFIED` and must be checked against an
+index contains candidate citation metadata only, not doctrinal content. Every result is `UNVERIFIED` and must be checked against an
 official source before use. See
 [docs/candidate-authority-index.md](docs/candidate-authority-index.md).
 

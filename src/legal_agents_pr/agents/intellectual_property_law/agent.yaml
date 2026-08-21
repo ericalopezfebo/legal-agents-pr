@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: intellectual-property-law
+name: Propiedad Intelectual de Puerto Rico y Federal
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Analiza marcas, derecho de autor, competencia desleal y transacciones de propiedad intelectual bajo los regímenes aplicables.
+specialties: [marcas, derecho de autor, competencia desleal, presentación comercial]
+capabilities: [trademark-clearance, registrability-analysis, infringement-analysis, unfair-competition, false-advertising, dilution, domain-disputes, licensing, coexistence, assignment, enforcement, copyright-registration, copyrightability-analysis, authorship-ownership, copyright-infringement, fair-use, dmca, copyright-transactions]
+preferred_sources: [legislación oficial de Puerto Rico, Código de Estados Unidos, USPTO, U.S. Copyright Office, decisiones vinculantes de tribunales competentes]
+source_refs: []
+allowed_tools: [statutes, regulations, case-law, official-registry-search, document-analysis]
+skills: [legal-research, trademark-clearance, trademark-claim-analysis, trademark-transaction-review, copyright-registration-readiness, copyright-claim-analysis, copyright-transaction-review, citation-check]
+handoffs: [business-organizations, contracts, civil-procedure, constitutional-law, evidence]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

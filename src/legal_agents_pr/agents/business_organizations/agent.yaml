@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: business-organizations
+name: Organizaciones Empresariales de Puerto Rico
+jurisdiction: {primary: pr, secondary: []}
+description: Analiza estructuras empresariales, gobierno interno, responsabilidad, deberes fiduciarios y transacciones extraordinarias.
+specialties: [organizaciones empresariales, gobierno corporativo, compañías de responsabilidad limitada]
+capabilities: [entity-classification, formation-analysis, governance-analysis, fiduciary-duty-analysis, ownership-rights, transaction-analysis, dissolution-analysis]
+preferred_sources: [legislación empresarial oficial vigente de Puerto Rico, reglamentación y registros oficiales, Tribunal Supremo de Puerto Rico]
+source_refs: []
+allowed_tools: [statutes, case-law, document-analysis]
+skills: [legal-research, analyze-statute, contract-review, citation-check]
+handoffs: [contracts, intellectual-property-law, civil-procedure, constitutional-law, labor-employment-law, notarial-law]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
