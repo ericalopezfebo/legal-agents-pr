@@ -12,7 +12,7 @@ def test_drafting_skills_require_sanitization_and_attorney_review() -> None:
     assert "attorney review" in motion
     assert "no copiar identidades" in pretrial
     assert "attorney review" in pretrial
-    for term in ("nombres", "direcciones", "metadatos", "hechos individualizantes"):
+    for term in ("nombres", "direcciones", "metadatos", "reidentificación"):
         assert term in sanitization
 
 
