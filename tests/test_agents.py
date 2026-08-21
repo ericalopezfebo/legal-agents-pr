@@ -5,6 +5,7 @@ EXPECTED = {
     "civil-law", "civil-procedure", "contracts", "business-organizations", "evidence", "appellate-law",
     "professional-responsibility", "intellectual-property-law",
     "criminal-law",
+    "privacy-cybersecurity-law",
 }
 
 

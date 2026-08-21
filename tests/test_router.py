@@ -35,3 +35,8 @@ def test_routes_business_organizations():
 def test_routes_copyright_question():
     route = DomainRouter().route("Analiza fair use y derecho de autor bajo la DMCA")
     assert route.primary_agent == "intellectual-property-law"
+
+
+def test_routes_privacy_and_cybersecurity_question():
+    route = DomainRouter().route("Evalúa esta brecha de datos personales y la respuesta de ciberseguridad")
+    assert route.primary_agent == "privacy-cybersecurity-law"
