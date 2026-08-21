@@ -4,6 +4,8 @@ All notable changes will be documented here. This project follows semantic versi
 
 ## 0.2.0 - Unreleased
 
+- Expand motion drafting and add privacy-safe pretrial-report and document-sanitization workflows.
+
 - Expand the intellectual-property specialist with three original copyright research and transaction workflows.
 
 - Add an intellectual-property specialist and three original trademark workflows backed by a copyright-safe research gate.
