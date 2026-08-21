@@ -4,6 +4,8 @@ All notable changes will be documented here. This project follows semantic versi
 
 ## 0.2.0 - Unreleased
 
+- Add four federal-practice agents and seventeen original skills covering civil and criminal litigation, evidence, bankruptcy, First Circuit appeals and federal-court ethics.
+
 - Add a Puerto Rico privacy and cybersecurity specialist and twenty cross-domain operational skills for privacy, employment, contracts, litigation, government contracting and DMCA analysis.
 
 - Expand motion drafting and add privacy-safe pretrial-report and document-sanitization workflows.

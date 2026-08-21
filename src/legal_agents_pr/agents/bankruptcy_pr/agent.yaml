@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: bankruptcy-pr
+name: Quiebras en Puerto Rico
+jurisdiction: {primary: federal, secondary: [pr]}
+description: Analiza elegibilidad, radicación, automatic stay y controversias ante el Tribunal de Quiebras para el Distrito de Puerto Rico.
+specialties: [quiebras, automatic stay, preparación de radicación, procedimientos adversativos]
+capabilities: [chapter-screening, filing-readiness, schedules, automatic-stay, claims, exemptions, executory-contracts, avoidance-risk, adversary-proceedings]
+preferred_sources: [Título 11 del Código de Estados Unidos, Reglas Federales de Quiebras, formularios oficiales, reglas y órdenes oficiales del Tribunal de Quiebras para el Distrito de Puerto Rico]
+source_refs: []
+allowed_tools: [statutes, court-rules, case-law, official-forms, document-analysis]
+skills: [bankruptcy-automatic-stay-analysis, bankruptcy-filing-readiness, legal-research, build-chronology, filing-readiness, citation-check]
+handoffs: [federal-appellate-pr, federal-civil-litigation-pr, contracts, civil-law, business-organizations, evidence, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

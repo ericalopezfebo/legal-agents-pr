@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: federal-civil-litigation-pr
+name: Litigación Civil Federal en Puerto Rico
+jurisdiction: {primary: federal, secondary: [pr]}
+description: Analiza jurisdicción y procedimiento civil ante el Tribunal Federal para el Distrito de Puerto Rico.
+specialties: [jurisdicción federal, procedimiento civil federal, reglas locales, litigación]
+capabilities: [subject-matter-jurisdiction, diversity, supplemental-jurisdiction, removal-remand, venue, pleadings, motions, discovery, esi, summary-judgment, pretrial]
+preferred_sources: [Código de Estados Unidos, Reglas Federales de Procedimiento Civil, reglas y órdenes oficiales del Distrito de Puerto Rico, Tribunal Supremo de Estados Unidos, Primer Circuito]
+source_refs: []
+allowed_tools: [statutes, court-rules, case-law, document-analysis]
+skills: [federal-subject-matter-jurisdiction, diversity-jurisdiction-analysis, removal-and-remand-analysis, federal-complaint-drafting-pr, federal-answer-drafting-pr, federal-motion-to-dismiss-pr, federal-summary-judgment-pr, federal-discovery-and-esi-pr, federal-pretrial-report-pr, legal-research, legal-document-sanitization, filing-readiness, citation-check]
+handoffs: [federal-appellate-pr, federal-criminal-litigation-pr, bankruptcy-pr, evidence, civil-procedure, contracts, constitutional-law, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

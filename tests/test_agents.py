@@ -6,6 +6,10 @@ EXPECTED = {
     "professional-responsibility", "intellectual-property-law",
     "criminal-law",
     "privacy-cybersecurity-law",
+    "federal-civil-litigation-pr",
+    "federal-criminal-litigation-pr",
+    "bankruptcy-pr",
+    "federal-appellate-pr",
 }
 
 

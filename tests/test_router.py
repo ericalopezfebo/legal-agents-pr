@@ -40,3 +40,23 @@ def test_routes_copyright_question():
 def test_routes_privacy_and_cybersecurity_question():
     route = DomainRouter().route("Evalúa esta brecha de datos personales y la respuesta de ciberseguridad")
     assert route.primary_agent == "privacy-cybersecurity-law"
+
+
+def test_routes_federal_civil_litigation():
+    route = DomainRouter().route("Analiza diversidad y remoción al tribunal federal del Distrito de Puerto Rico")
+    assert route.primary_agent == "federal-civil-litigation-pr"
+
+
+def test_routes_federal_criminal_litigation():
+    route = DomainRouter().route("Prepara la moción en esta acusación federal y analiza sentencing guidelines")
+    assert route.primary_agent == "federal-criminal-litigation-pr"
+
+
+def test_routes_bankruptcy():
+    route = DomainRouter().route("¿Aplica el automatic stay en esta quiebra bajo Chapter 11?")
+    assert route.primary_agent == "bankruptcy-pr"
+
+
+def test_routes_first_circuit_appeal():
+    route = DomainRouter().route("Prepara el brief de apelación federal ante el Primer Circuito")
+    assert route.primary_agent == "federal-appellate-pr"

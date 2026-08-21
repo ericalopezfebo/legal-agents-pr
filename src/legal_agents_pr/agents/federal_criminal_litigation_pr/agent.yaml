@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: federal-criminal-litigation-pr
+name: Litigación Penal Federal en Puerto Rico
+jurisdiction: {primary: federal, secondary: [pr]}
+description: Analiza procedimiento penal federal, mociones previas al juicio y sentencing en el Distrito de Puerto Rico.
+specialties: [procedimiento penal federal, mociones pretrial, sentencing]
+capabilities: [charging-review, detention, discovery, suppression, pretrial-motions, pleas, trial-readiness, sentencing, restitution, forfeiture, preservation]
+preferred_sources: [Código de Estados Unidos, Reglas Federales de Procedimiento Penal, Sentencing Guidelines oficiales, reglas y órdenes oficiales del Distrito de Puerto Rico, precedentes vinculantes]
+source_refs: []
+allowed_tools: [statutes, court-rules, case-law, document-analysis]
+skills: [federal-criminal-pretrial-motion, federal-sentencing-analysis, federal-evidence-objection-analysis, legal-research, build-chronology, check-proposition-support, citation-check]
+handoffs: [federal-appellate-pr, evidence, constitutional-law, professional-responsibility]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

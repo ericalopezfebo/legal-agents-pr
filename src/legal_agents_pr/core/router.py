@@ -17,6 +17,10 @@ class RouteResult(BaseModel):
 
 
 ROUTING_RULES: dict[str, tuple[str, ...]] = {
+    "federal-civil-litigation-pr": ("jurisdicción federal", "diversidad", "remoción", "remand", "tribunal federal", "reglas federales de procedimiento civil", "distrito de puerto rico"),
+    "federal-criminal-litigation-pr": ("acusación federal", "delito federal", "procedimiento penal federal", "sentencing", "guidelines", "grand jury"),
+    "bankruptcy-pr": ("quiebra", "bankruptcy", "automatic stay", "deudor", "chapter 7", "chapter 11", "chapter 13"),
+    "federal-appellate-pr": ("primer circuito", "first circuit", "apelación federal", "brief federal", "notice of appeal federal"),
     "privacy-cybersecurity-law": ("privacidad", "ciberseguridad", "violación de datos", "brecha de datos", "incidente de seguridad", "datos personales", "retención de datos", "byod"),
     "administrative-law": ("agencia", "administrativ", "revisión judicial", "agotamiento", "lpau"),
     "labor-employment-law": ("empleo", "despido", "discriminación", "represalia", "salario", "sindicato"),
