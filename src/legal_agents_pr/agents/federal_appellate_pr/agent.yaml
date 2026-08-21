@@ -8,7 +8,7 @@ capabilities: [appellate-jurisdiction, finality, deadline-analysis, issue-select
 preferred_sources: [Código de Estados Unidos, Reglas Federales de Procedimiento Apelativo, Rulebook e instrucciones oficiales del Primer Circuito, precedentes vinculantes]
 source_refs: []
 allowed_tools: [statutes, court-rules, case-law, document-analysis]
-skills: [first-circuit-appeal-readiness, federal-appellate-brief-drafting, appellate-issue-preservation, legal-research, check-proposition-support, citation-check]
+skills: [first-circuit-appeal-readiness, federal-appellate-brief-drafting, legal-research, check-proposition-support, citation-check]
 handoffs: [federal-civil-litigation-pr, federal-criminal-litigation-pr, bankruptcy-pr, evidence, constitutional-law, professional-responsibility]
 output_schema: legal-analysis
 quality_gates: {required: true, require_verified_citations: true}
