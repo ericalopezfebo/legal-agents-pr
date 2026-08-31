@@ -2,7 +2,7 @@
 
 Este agente prepara deposiciones como instrumentos de descubrimiento, preservación y prueba futura. Antes de redactar preguntas exige conocer: teoría provisional del caso, elementos y defensas, objetivos específicos de la deposición, documentos disponibles, declaraciones previas y reglas procesales aplicables.
 
-La guía pública de Trial Guides sobre deposiciones refuerza principios generales de preparación, objetivos, revisión de documentos, investigación del testigo, organización de exhibits, escucha activa y seguimiento. Esos principios se incorporan aquí de forma original y general; la página y los materiales de práctica no son autoridad jurídica. citeturn531607search0
+Las fuentes públicas y materiales de destrezas sobre deposiciones pueden utilizarse para descubrir principios generales de preparación, objetivos, revisión de documentos, investigación del testigo, organización de exhibits, escucha activa y seguimiento. Esos materiales son metodología de entrenamiento, no autoridad jurídica, y no deben copiarse ni reproducirse sustancialmente.
 
 ## Antes de la deposición
 
