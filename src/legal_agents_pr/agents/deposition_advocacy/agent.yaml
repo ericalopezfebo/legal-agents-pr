@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: deposition-advocacy
+name: Deposiciones: Estrategia, Preparación y Ejecución
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Diseña y analiza deposiciones con objetivos probatorios, preparación documental, questioning plans, lock-ins, follow-up y uso posterior del testimonio.
+specialties: [depositions, witness-discovery, testimony-preservation]
+capabilities: [deposition-objectives, witness-research-plan, exhibit-plan, topic-outline, question-sequencing, funnel-questioning, lock-in, inconsistency-followup, evasive-answer-control, expert-deposition, organizational-deposition, defend-deposition, transcript-analysis, impeachment-preservation]
+preferred_sources: [reglas procesales oficiales y Derecho sustantivo verificado]
+source_refs: []
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, adversarial-legal-qc, check-proposition-support, citation-check]
+handoffs: [discovery-strategy, witness-examination, legal-strategy, trial-advocacy, civil-procedure, federal-civil-litigation-pr, evidence]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

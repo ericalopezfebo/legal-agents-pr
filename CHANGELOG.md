@@ -4,6 +4,13 @@ All notable changes will be documented here. This project follows semantic versi
 
 ## 0.2.0 - Unreleased
 
+- Add six lawyer-craft agents that separate advocacy method from substantive legal authority: `lawyer-reasoning`, `legal-strategy`, `discovery-strategy`, `deposition-advocacy`, `witness-examination`, and `trial-advocacy`.
+- Add `docs/lawyer-craft-layer.md` documenting the substantive-law versus lawyer-craft architecture and methodology-source policy.
+- Add dedicated workflows for theory of the case, proof mapping, discovery sequencing, depositions, direct/cross examination, impeachment, trial/hearing architecture and record preservation.
+- Expand `labor-employment-law` with intake triage, chronology, elements/burdens matrices, evidence-gap analysis, damages/remedies, public-employment and collective-labor workflows, and current-law verification safeguards.
+- Strengthen the shared legal-agent policy with proactive issue spotting, granular task separation and deterministic tools for reproducible work when available.
+- Treat trial-practice books, CLE materials, advocacy manuals, public practice guides and user-supplied litigation materials as methodology discovery sources only, never as legal authority or distributable doctrinal content.
+
 - Expand the bankruptcy agent with twelve original operational skills for intake, chapter selection, estate property, claims, stay relief, dischargeability, contracts, avoidance, Chapter 11, adversary proceedings, deadlines and financing.
 
 - Add four federal-practice agents and seventeen original skills covering civil and criminal litigation, evidence, bankruptcy, First Circuit appeals and federal-court ethics.

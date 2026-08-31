@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: discovery-strategy
+name: Estrategia de Descubrimiento de Prueba
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Diseña discovery orientado a objetivos probatorios, secuencia, preservación, admissions, documentos, testigos y preparación para dispositive motions o juicio.
+specialties: [discovery, fact-development, evidence-acquisition]
+capabilities: [discovery-plan, information-gap-analysis, preservation, interrogatories-strategy, requests-for-production-strategy, requests-for-admission-strategy, subpoena-strategy, deposition-sequencing, privilege-risk, proportionality, discovery-enforcement, evidence-followup]
+preferred_sources: [reglas procesales oficiales y Derecho sustantivo verificado]
+source_refs: []
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, adversarial-legal-qc, check-proposition-support, citation-check]
+handoffs: [lawyer-reasoning, legal-strategy, deposition-advocacy, witness-examination, trial-advocacy, civil-procedure, federal-civil-litigation-pr]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: witness-examination
+name: Interrogatorio Directo, Contrainterrogatorio e Impugnación
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Diseña interrogatorios de testigos orientados a objetivos probatorios, credibilidad, narrativa, control, impeachment y preservación del récord.
+specialties: [direct-examination, cross-examination, impeachment]
+capabilities: [witness-objectives, direct-examination-plan, cross-examination-plan, impeachment-plan, chapter-method, exhibit-foundation-plan, credibility-analysis, contradiction-matrix, witness-preparation, redirect-plan, record-preservation]
+preferred_sources: [reglas de evidencia oficiales, reglas procesales oficiales y Derecho sustantivo verificado]
+source_refs: [pr-evidence-rules-2009-updated-2020-08]
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, adversarial-legal-qc, check-proposition-support, citation-check]
+handoffs: [evidence, legal-strategy, deposition-advocacy, trial-advocacy, appellate-law]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

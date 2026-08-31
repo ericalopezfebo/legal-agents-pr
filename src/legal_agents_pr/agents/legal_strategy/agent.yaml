@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: legal-strategy
+name: Estrategia Jurídica y Teoría del Caso
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Diseña teoría del caso, objetivos, mapa de prueba, secuencia estratégica y decisiones de litigación a partir de Derecho sustantivo verificado.
+specialties: [case-theory, litigation-strategy, proof-planning]
+capabilities: [case-theory, case-theme, objective-setting, proof-map, chronology, witness-map, document-map, leverage-analysis, decision-tree, risk-ranking, pre-mortem, settlement-posture, litigation-plan]
+preferred_sources: [fuentes primarias verificadas suministradas por agentes sustantivos]
+source_refs: []
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, adversarial-legal-qc, check-proposition-support, citation-check]
+handoffs: [lawyer-reasoning, discovery-strategy, deposition-advocacy, witness-examination, trial-advocacy]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}

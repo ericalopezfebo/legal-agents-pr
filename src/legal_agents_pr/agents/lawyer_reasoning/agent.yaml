@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: lawyer-reasoning
+name: Razonamiento Jurídico Estratégico
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Convierte reglas sustantivas verificadas y hechos del expediente en análisis jurídico estructurado, hipótesis, cargas, riesgos y decisiones de litigación.
+specialties: [legal-reasoning, issue-spotting, case-analysis]
+capabilities: [issue-framing, element-mapping, burden-allocation, fact-rule-application, counteranalysis, uncertainty-analysis, decision-trees, proof-gaps, legal-risk]
+preferred_sources: [fuentes primarias verificadas suministradas por agentes sustantivos]
+source_refs: []
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, adversarial-legal-qc, check-proposition-support, citation-check]
+handoffs: [legal-strategy, discovery-strategy, deposition-advocacy, witness-examination, trial-advocacy]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
