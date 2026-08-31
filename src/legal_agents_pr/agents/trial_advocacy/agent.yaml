@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: trial-advocacy
+name: Litigación en Vista y Juicio
+jurisdiction: {primary: pr, secondary: [federal]}
+description: Convierte teoría del caso y mapa de prueba en arquitectura de vista o juicio, secuencia probatoria, openings, examinations, exhibits, objections, preservation y closing.
+specialties: [trial-advocacy, hearing-strategy, proof-presentation]
+capabilities: [trial-plan, hearing-plan, proof-order, witness-order, exhibit-order, opening-strategy, direct-examination-integration, cross-examination-integration, objection-planning, motions-in-limine-issues, record-preservation, closing-strategy, bench-trial-adaptation, administrative-hearing-adaptation]
+preferred_sources: [reglas de evidencia oficiales, reglas procesales oficiales y Derecho sustantivo verificado]
+source_refs: [pr-evidence-rules-2009-updated-2020-08]
+allowed_tools: [statutes, regulations, case-law]
+skills: [legal-research, adversarial-legal-qc, check-proposition-support, citation-check]
+handoffs: [legal-strategy, witness-examination, evidence, appellate-law, administrative-law, civil-procedure, federal-civil-litigation-pr]
+output_schema: legal-analysis
+quality_gates: {required: true, require_verified_citations: true}
