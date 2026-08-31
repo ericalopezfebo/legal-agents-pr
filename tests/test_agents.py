@@ -10,6 +10,21 @@ EXPECTED = {
     "federal-criminal-litigation-pr",
     "bankruptcy-pr",
     "federal-appellate-pr",
+    "lawyer-reasoning",
+    "legal-strategy",
+    "discovery-strategy",
+    "deposition-advocacy",
+    "witness-examination",
+    "trial-advocacy",
+}
+
+CRAFT_AGENTS = {
+    "lawyer-reasoning",
+    "legal-strategy",
+    "discovery-strategy",
+    "deposition-advocacy",
+    "witness-examination",
+    "trial-advocacy",
 }
 
 
@@ -30,6 +45,14 @@ def test_shared_legal_policy_is_injected_into_every_agent():
         assert "Política común de operación jurídica" in prompt
         assert "UNVERIFIED" in prompt
         assert "evento activador" in prompt
+
+
+def test_craft_agents_separate_methodology_from_legal_authority():
+    loader = AgentLoader()
+    for agent_id in CRAFT_AGENTS:
+        prompt = loader.load(agent_id).system_prompt.lower()
+        assert "autoridad" in prompt
+        assert "sustantiv" in prompt or "derecho" in prompt
 
 
 def test_civil_procedure_has_research_and_filing_readiness_skills():
