@@ -1,35 +1,54 @@
 # Changelog
 
-## Unreleased
+All notable changes will be documented here. This project follows semantic versioning.
 
-### Added
-- Six lawyer-craft agents that separate advocacy method from substantive legal authority: `lawyer-reasoning`, `legal-strategy`, `discovery-strategy`, `deposition-advocacy`, `witness-examination`, and `trial-advocacy`.
-- `docs/lawyer-craft-layer.md` documenting the substantive-law versus lawyer-craft architecture and methodology-source policy.
-- Dedicated workflows for theory of the case, proof mapping, discovery sequencing, depositions, direct/cross examination, impeachment, trial/hearing architecture and record preservation.
+## 0.2.0 - Unreleased
 
-### Changed
-- Expanded `labor-employment-law` with intake triage, chronology, elements/burdens matrices, evidence-gap analysis, damages/remedies, public-employment and collective-labor workflows, and current-law verification safeguards.
-- Shared legal-agent policy now requires proactive issue spotting, granular task separation and deterministic tools for reproducible calculations/extractions when available.
-- README now documents 24 agents and the two-layer substantive/craft model.
+- Add six lawyer-craft agents that separate advocacy method from substantive legal authority: `lawyer-reasoning`, `legal-strategy`, `discovery-strategy`, `deposition-advocacy`, `witness-examination`, and `trial-advocacy`.
+- Add `docs/lawyer-craft-layer.md` documenting the substantive-law versus lawyer-craft architecture and methodology-source policy.
+- Add dedicated workflows for theory of the case, proof mapping, discovery sequencing, depositions, direct/cross examination, impeachment, trial/hearing architecture and record preservation.
+- Expand `labor-employment-law` with intake triage, chronology, elements/burdens matrices, evidence-gap analysis, damages/remedies, public-employment and collective-labor workflows, and current-law verification safeguards.
+- Strengthen the shared legal-agent policy with proactive issue spotting, granular task separation and deterministic tools for reproducible work when available.
+- Treat trial-practice books, CLE materials, advocacy manuals, public practice guides and user-supplied litigation materials as methodology discovery sources only, never as legal authority or distributable doctrinal content.
 
-### Safety and provenance
-- Trial-practice books, CLE materials, advocacy manuals, public practice guides and user-supplied litigation materials are methodology discovery sources only. They are not legal authority and must not be copied or substantially reproduced.
+- Expand the bankruptcy agent with twelve original operational skills for intake, chapter selection, estate property, claims, stay relief, dischargeability, contracts, avoidance, Chapter 11, adversary proceedings, deadlines and financing.
 
-## 0.4.0
+- Add four federal-practice agents and seventeen original skills covering civil and criminal litigation, evidence, bankruptcy, First Circuit appeals and federal-court ethics.
 
-- Added federal practice agents for civil litigation, criminal litigation, bankruptcy, and First Circuit appellate work.
-- Added versioned source-registry support and citation verification contracts.
-- Expanded quality gates, provider abstraction, source provenance, and copyright-safe research controls.
+- Add a Puerto Rico privacy and cybersecurity specialist and twenty cross-domain operational skills for privacy, employment, contracts, litigation, government contracting and DMCA analysis.
 
-## 0.3.0
+- Expand motion drafting and add privacy-safe pretrial-report and document-sanitization workflows.
 
-- Added additional Puerto Rico specialist agents and legal skills.
-- Added candidate-authority indexing and verification safeguards.
+- Expand the intellectual-property specialist with three original copyright research and transaction workflows.
 
-## 0.2.0
+- Add an intellectual-property specialist and three original trademark workflows backed by a copyright-safe research gate.
 
-- Added structured provider, routing, skills, tools and quality interfaces.
+- Strengthen interpretive analysis and employment-law lifecycle coverage while preserving source confidentiality.
 
-## 0.1.0
+- Add a business-organizations specialist and expand special-contract issue spotting with source-confidentiality safeguards.
 
-- Initial repository structure and Puerto Rico legal-agent framework.
+- Expand administrative, contracts, civil-procedure, constitutional and evidence issue-spotting through an internal, non-citable coverage taxonomy.
+- Add confidentiality safeguards and regression tests for internal doctrine coverage.
+- Add an auditable legal-reasoning protocol covering operative facts, elements, burdens, counteranalysis, procedural fit and remedy.
+
+- Add a shared legal operating policy automatically injected into every specialist agent.
+- Strengthen administrative-law and civil-procedure issue spotting and source-date safeguards.
+- Add legal-research and filing-readiness procedures to the civil-procedure agent.
+- Keep the documented specialist-agent count synchronized with the available definitions.
+- Add source retrieval, pinpoint, legal-effect and currency evidence contracts.
+- Require matching evidence for verified authorities.
+- Prevent model-provider output from self-certifying citation verification.
+- Block current-law validation unless effective authority was checked through the requested date.
+- Add allowlisted, size-limited retrieval for priority Puerto Rico official-source domains.
+- Add conservative TSPR annual-index parsing and judicial-document classification.
+
+## 0.1.0 - 2026-08-18
+
+- Initial provider-agnostic runtime.
+- Eleven Puerto Rico specialist agent definitions.
+- Deterministic router and bounded handoffs.
+- Source, citation and legal quality policies.
+- Versioned source catalog for selected Puerto Rico statutes and court rules.
+- Professional-responsibility agent based on Puerto Rico's 2025 rules.
+- Runtime source-context injection and source-inspection CLI commands.
+- Optional provider adapters, CLI, tests and documentation.
