@@ -11,7 +11,8 @@ Provider-agnostic, open-source legal AI agents for Puerto Rico. The repository s
 
 ## What it is
 
-- Eighteen versioned specialist agents for Puerto Rico and federal practice.
+- Twenty-four versioned specialist agents for Puerto Rico and federal practice.
+- Two coordinated legal layers: substantive-law agents and lawyer-craft/advocacy agents.
 - A small Python runtime with provider, tool, skill, routing, handoff and quality interfaces.
 - Structured Pydantic outputs with explicit citation-verification states.
 - A CLI and Python API that work offline with `MockProvider`.
@@ -27,14 +28,16 @@ Provider-agnostic, open-source legal AI agents for Puerto Rico. The repository s
 
 ```mermaid
 flowchart TD
-  U[User] --> R[Domain Router]
-  R --> A[Specialist Agent]
-  A --> ST[Skills and Tools]
-  ST --> S[Puerto Rico Legal Sources]
-  A --> P[LLM Provider]
-  A --> Q[Legal Quality Gate]
+  U[User / Record] --> R[Domain Router]
+  R --> SLAW[Substantive Law Agent]
+  SLAW --> SRC[Verified Legal Sources]
+  SLAW --> CRAFT[Lawyer Craft Agent]
+  CRAFT --> T[Skills and Tools]
+  CRAFT --> Q[Legal Quality Gate]
   Q --> O[Structured Draft]
 ```
+
+The **substantive layer** answers what law controls, what must be proved, what burdens and remedies apply, and which authorities support those propositions. The **lawyer craft layer** decides how to reason from that law, investigate the case, build a theory, conduct discovery, take depositions, examine witnesses and present proof. See [docs/lawyer-craft-layer.md](docs/lawyer-craft-layer.md).
 
 Agent definitions live in `src/legal_agents_pr/agents/*/agent.yaml` and `system.md`. They never import provider SDKs. Optional adapters translate neutral requests for OpenAI, Anthropic, Gemini, OpenRouter and Ollama.
 
@@ -64,6 +67,7 @@ legal-agents-pr sources
 legal-agents-pr source pr-lpau-38-2017-2025-05-16
 legal-agents-pr route "¿Procede revisión judicial de la agencia?"
 legal-agents-pr ask administrative-law "Identifica los asuntos generales" --output json
+legal-agents-pr ask legal-strategy "Construye un mapa de teoría del caso usando el análisis sustantivo suministrado" --output json
 ```
 
 The default provider is `mock`. For a real provider:
@@ -89,6 +93,8 @@ print(result.quality.status)
 
 ## Agents
 
+### Substantive law and forum agents
+
 - `administrative-law`
 - `labor-employment-law`
 - `constitutional-law`
@@ -107,6 +113,19 @@ print(result.quality.status)
 - `appellate-law`
 - `professional-responsibility`
 - `criminal-law`
+
+### Lawyer craft and advocacy agents
+
+- `lawyer-reasoning` — transforms verified rules and facts into element maps, hypotheses, counteranalysis and decision logic.
+- `legal-strategy` — builds theory of the case, proof maps, chronology, leverage, risk and litigation sequencing.
+- `discovery-strategy` — designs discovery around information gaps and evidentiary objectives.
+- `deposition-advocacy` — prepares and analyzes depositions, exhibits, lock-ins, follow-up and transcript use.
+- `witness-examination` — plans direct examination, cross-examination, impeachment and witness preparation.
+- `trial-advocacy` — organizes hearings and trials, proof order, openings, objections, preservation and closing.
+
+## Methodology-source policy
+
+Trial-practice books, advocacy manuals, CLE materials, public practice guides and user-supplied litigation resources are treated as **methodology discovery sources only**. They may inspire original workflows, questions and quality checks, but they are not legal authority and should not be copied or substantially reproduced. Any conflict between a practice technique and verified procedural, evidentiary, ethical or substantive law is resolved in favor of the verified legal source.
 
 ## Citation safety
 
