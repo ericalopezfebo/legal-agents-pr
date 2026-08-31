@@ -1,23 +1,32 @@
-# Revisión de colecciones externas de skills
+# External skill and methodology review
 
-Fecha de revisión: 18 de agosto de 2026.
+External legal-AI skills, public practice guides, CLE materials, advocacy manuals and user-supplied litigation-training materials may be reviewed to discover useful capabilities, workflow ideas, quality checks and issue-spotting categories.
 
-Esta revisión identifica patrones y brechas funcionales. No incorpora texto, datasets, reglas de
-otra jurisdicción ni supuestos benchmarks de mercado. Los skills añadidos a este repositorio fueron
-redactados originalmente para su arquitectura, política de fuentes y contexto de Puerto Rico.
+They are **discovery sources, not distributable knowledge sources**. Do not copy their text, examples, sample examinations, pedagogical structure, proprietary checklists or substantial paraphrases into this repository. Reconstruct any legal proposition independently from verified primary authority and express any methodology as an original workflow.
 
-| Fuente | Licencia observada | Uso permitido en este proyecto |
-|---|---|---|
-| [zh-xx/legal-assistant-skills](https://github.com/zh-xx/legal-assistant-skills) | Apache-2.0 | Inventario y patrones generales; no se importó texto. |
-| [LegalQuants/lq-skills](https://github.com/LegalQuants/lq-skills) | Apache-2.0 en el repositorio; algunos módulos además incluyen licencia propia | Detección de brechas como cronologías, comprobación de proposiciones y QC; implementación original. |
-| [evolsb/claude-legal-skill](https://github.com/evolsb/claude-legal-skill) | MIT | Se evaluó su checklist contractual; no se importó ni se adoptaron benchmarks no verificados. |
-| [HAQQ Legal AI Skills](https://www.haqq.ai/best-legal-skills) | Directorio de múltiples autores y procedencias | Solo descubrimiento. Cada skill requeriría verificar autor, fuente y licencia antes de reutilizarlo. |
+## Two review tracks
 
-## Decisiones
+### Substantive-law material
 
-- Añadir `build-chronology`, `check-proposition-support`, `analyze-statute` y
-  `adversarial-legal-qc` como capacidades generales y auditables.
-- Exigir fuentes accesibles, pin cites, estados de incertidumbre y revisión profesional.
-- No incorporar reglas sustantivas extranjeras, texto de terceros, datasets ni métricas de mercado.
-- Evaluar futuras incorporaciones individualmente; la presencia en un directorio no acredita
-  licencia, actualidad, autoridad jurídica ni idoneidad para Puerto Rico.
+Use it only to identify candidate statutes, rules, regulations, cases and doctrinal questions. Verify every proposition independently against an approved legal source before incorporating it into an agent. Never cite a secondary training source as if it were law.
+
+### Lawyer-craft / advocacy material
+
+Use it to identify abstract methods such as defining objectives, sequencing investigation, preparing witnesses, organizing exhibits, testing alternative hypotheses, preserving testimony, following up on evasive answers, building proof maps, or planning hearings. Convert those ideas into original, jurisdiction-neutral operating principles, then constrain them with the procedural, evidentiary and ethical rules verified for the forum.
+
+## Current lawyer-craft layer
+
+The methodology layer is implemented through:
+
+- `lawyer-reasoning`
+- `legal-strategy`
+- `discovery-strategy`
+- `deposition-advocacy`
+- `witness-examination`
+- `trial-advocacy`
+
+See `docs/lawyer-craft-layer.md` for the handoff model between substantive agents and these advocacy agents.
+
+## Anti-substitution check
+
+Before adding any material inspired by an external source, confirm that the repository output could stand independently without giving a user a substitute for the original work. If the answer is no, reduce the material to a higher-level capability or workflow concept and rewrite it from first principles.
