@@ -12,7 +12,9 @@ Use it only to identify candidate statutes, rules, regulations, cases and doctri
 
 ### Lawyer-craft / advocacy material
 
-Use it to identify abstract methods such as defining objectives, sequencing investigation, preparing witnesses, organizing exhibits, testing alternative hypotheses, preserving testimony, following up on evasive answers, building proof maps, or planning hearings. Convert those ideas into original, jurisdiction-neutral operating principles, then constrain them with the procedural, evidentiary and ethical rules verified for the forum.
+Use it to identify abstract methods such as defining objectives, sequencing investigation, preparing witnesses, organizing exhibits, testing alternative hypotheses, preserving testimony, following up on evasive answers, building proof maps, planning hearings, preparing oral argument, triaging research under time pressure, improving legal writing, and controlling deadlines. Convert those ideas into original, jurisdiction-neutral operating principles, then constrain them with the procedural, evidentiary and ethical rules verified for the forum.
+
+Puerto Rico-specific public practice materials may be especially useful for local lawyer-craft context. They remain methodology sources only. See `docs/puerto-rico-lawyer-craft-sources.md` for the current review list.
 
 ## Current lawyer-craft layer
 
